@@ -1,0 +1,2997 @@
+{
+    "brand":  "Greg\u0027s Cafe",
+    "city":  "Chembur",
+    "currency":  "\u20B9",
+    "whatsappNumber":  "919867378209",
+    "phone":  "+91 9867378209",
+    "email":  "hello@gregscafe.in",
+    "address":  "Shop 102, 1st Floor, Yash Signature, Opposite Telecom Factory Road, Chembur, Mumbai",
+    "timing":  "10:00 AM - 11:30 PM",
+    "googleMaps":  "https://maps.app.goo.gl/ivowgNezMj78wJjz6",
+    "googleReviews":  "https://www.google.com/search?q=greg%E2%80%99s+cafe+reviews",
+    "todayOffer":  [
+                       {
+                           "id":  "offer-chicken-lollipop",
+                           "name":  "Chicken Lollipop",
+                           "desc":  "Crisp, juicy bites with house spice glaze.",
+                           "price":  299,
+                           "originalPrice":  499,
+                           "veg":  false,
+                           "available":  true,
+                           "image":  "images/menu/today-offer/offer-chicken-lollipop.jpg"
+                       },
+                       {
+                           "id":  "offer-veggie-melody-pizza-11",
+                           "name":  "Veggie Melody Pizza [11\"]",
+                           "desc":  "Garden vegetables, mozzarella, and a vibrant tomato base.",
+                           "price":  389,
+                           "originalPrice":  639,
+                           "veg":  true,
+                           "available":  true,
+                           "image":  "images/menu/today-offer/offer-veggie-melody-pizza-11.jpg"
+                       }
+                   ],
+    "addonGroups":  [
+                        {
+                            "id":  "pasta-protein",
+                            "title":  "Protein",
+                            "note":  "Optional - Choose up to 2",
+                            "min":  0,
+                            "max":  2,
+                            "options":  [
+                                            {
+                                                "id":  "paneer",
+                                                "name":  "Paneer",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "chicken",
+                                                "name":  "Chicken",
+                                                "price":  80
+                                            },
+                                            {
+                                                "id":  "prawns",
+                                                "name":  "Prawns",
+                                                "price":  99
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "pasta-choice",
+                            "title":  "Choice of Pasta",
+                            "note":  "Select 1",
+                            "min":  1,
+                            "max":  1,
+                            "options":  [
+                                            {
+                                                "id":  "penne",
+                                                "name":  "Penne",
+                                                "price":  0
+                                            },
+                                            {
+                                                "id":  "spaghetti",
+                                                "name":  "Spaghetti",
+                                                "price":  0
+                                            },
+                                            {
+                                                "id":  "macaroni",
+                                                "name":  "Macaroni",
+                                                "price":  0
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "lasagne-protein",
+                            "title":  "Protein",
+                            "note":  "Optional - Choose up to 2",
+                            "min":  0,
+                            "max":  2,
+                            "options":  [
+                                            {
+                                                "id":  "paneer",
+                                                "name":  "Paneer",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "chicken",
+                                                "name":  "Chicken",
+                                                "price":  80
+                                            },
+                                            {
+                                                "id":  "prawns",
+                                                "name":  "Prawns",
+                                                "price":  99
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "risotto-protein",
+                            "title":  "Protein",
+                            "note":  "Optional - Choose up to 2",
+                            "min":  0,
+                            "max":  2,
+                            "options":  [
+                                            {
+                                                "id":  "paneer",
+                                                "name":  "Paneer",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "chicken",
+                                                "name":  "Chicken",
+                                                "price":  80
+                                            },
+                                            {
+                                                "id":  "prawns",
+                                                "name":  "Prawns",
+                                                "price":  99
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "pizza-protein",
+                            "title":  "Protein",
+                            "note":  "Optional - Choose up to 2",
+                            "min":  0,
+                            "max":  2,
+                            "options":  [
+                                            {
+                                                "id":  "paneer",
+                                                "name":  "Paneer",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "chicken",
+                                                "name":  "Chicken",
+                                                "price":  80
+                                            },
+                                            {
+                                                "id":  "prawns",
+                                                "name":  "Prawns",
+                                                "price":  99
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "garlic-bread-topping",
+                            "title":  "Garlic Bread Topping",
+                            "note":  "Optional - Select 1",
+                            "min":  0,
+                            "max":  1,
+                            "options":  [
+                                            {
+                                                "id":  "cheese",
+                                                "name":  "Cheese",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "chilli-cheese",
+                                                "name":  "Chilli Cheese",
+                                                "price":  65
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "loaded-nachos-protein",
+                            "title":  "Add-on Protein",
+                            "note":  "Optional - Select 1",
+                            "min":  0,
+                            "max":  1,
+                            "options":  [
+                                            {
+                                                "id":  "paneer",
+                                                "name":  "Paneer",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "chicken",
+                                                "name":  "Chicken",
+                                                "price":  80
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "fries-topping",
+                            "title":  "Fries Topping",
+                            "note":  "Optional - Choose up to 2",
+                            "min":  0,
+                            "max":  2,
+                            "options":  [
+                                            {
+                                                "id":  "peri-peri",
+                                                "name":  "Peri Peri",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "cheese-sauce",
+                                                "name":  "Cheese Sauce",
+                                                "price":  75
+                                            },
+                                            {
+                                                "id":  "truffle-parmesan",
+                                                "name":  "Truffle Oil \u0026 Parmesan",
+                                                "price":  99
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "sauce-protein",
+                            "title":  "Protein",
+                            "note":  "Optional - Choose up to 2",
+                            "min":  0,
+                            "max":  2,
+                            "options":  [
+                                            {
+                                                "id":  "paneer",
+                                                "name":  "Paneer",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "chicken",
+                                                "name":  "Chicken",
+                                                "price":  80
+                                            },
+                                            {
+                                                "id":  "prawns",
+                                                "name":  "Prawns",
+                                                "price":  99
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "omelette-toppings",
+                            "title":  "Omelette Toppings",
+                            "note":  "Optional - Select up to 2",
+                            "min":  0,
+                            "max":  2,
+                            "options":  [
+                                            {
+                                                "id":  "masala",
+                                                "name":  "Masala Omelette",
+                                                "price":  0
+                                            },
+                                            {
+                                                "id":  "egg-white",
+                                                "name":  "Egg White Only",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "chillies-cheese",
+                                                "name":  "Chillies and Cheese",
+                                                "price":  75
+                                            },
+                                            {
+                                                "id":  "mushroom-cheese",
+                                                "name":  "Mushroom and Cheese",
+                                                "price":  99
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "nonveg-breakfast-eggs",
+                            "title":  "Choice Of Egg",
+                            "note":  "Optional - Select 1",
+                            "min":  0,
+                            "max":  1,
+                            "options":  [
+                                            {
+                                                "id":  "boiled",
+                                                "name":  "Boiled Eggs",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "sunny",
+                                                "name":  "Sunny Side Up",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "scrambled",
+                                                "name":  "Scrambled Eggs",
+                                                "price":  99
+                                            },
+                                            {
+                                                "id":  "bhurji",
+                                                "name":  "Bhurji Pav",
+                                                "price":  150
+                                            },
+                                            {
+                                                "id":  "shakshuka",
+                                                "name":  "Egg Shakshuka",
+                                                "price":  130
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "waffle-toppings",
+                            "title":  "Toppings",
+                            "note":  "Optional - Select up to 4",
+                            "min":  0,
+                            "max":  4,
+                            "options":  [
+                                            {
+                                                "id":  "whipped-cream",
+                                                "name":  "Whipped Cream",
+                                                "price":  30
+                                            },
+                                            {
+                                                "id":  "maple",
+                                                "name":  "Maple Syrup",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "nutella",
+                                                "name":  "Nutella",
+                                                "price":  75
+                                            },
+                                            {
+                                                "id":  "blueberry",
+                                                "name":  "Blueberry Compote",
+                                                "price":  75
+                                            },
+                                            {
+                                                "id":  "strawberry",
+                                                "name":  "Strawberry Compote",
+                                                "price":  75
+                                            },
+                                            {
+                                                "id":  "bacon",
+                                                "name":  "Crispy Bacon",
+                                                "price":  99
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "rice-noodles-protein",
+                            "title":  "Protein",
+                            "note":  "Optional - Choose up to 2",
+                            "min":  0,
+                            "max":  2,
+                            "options":  [
+                                            {
+                                                "id":  "paneer",
+                                                "name":  "Paneer",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "chicken",
+                                                "name":  "Chicken",
+                                                "price":  80
+                                            },
+                                            {
+                                                "id":  "prawns",
+                                                "name":  "Prawns",
+                                                "price":  99
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "salad-protein",
+                            "title":  "Protein",
+                            "note":  "Optional - Choose up to 2",
+                            "min":  0,
+                            "max":  2,
+                            "options":  [
+                                            {
+                                                "id":  "paneer",
+                                                "name":  "Paneer",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "chicken",
+                                                "name":  "Chicken",
+                                                "price":  80
+                                            },
+                                            {
+                                                "id":  "prawns",
+                                                "name":  "Prawns",
+                                                "price":  99
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "soup-protein",
+                            "title":  "Protein",
+                            "note":  "Optional - Choose up to 2",
+                            "min":  0,
+                            "max":  2,
+                            "options":  [
+                                            {
+                                                "id":  "paneer",
+                                                "name":  "Paneer",
+                                                "price":  50
+                                            },
+                                            {
+                                                "id":  "chicken",
+                                                "name":  "Chicken",
+                                                "price":  80
+                                            },
+                                            {
+                                                "id":  "prawns",
+                                                "name":  "Prawns",
+                                                "price":  99
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "sandwich-bread",
+                            "title":  "Choice Of Bread",
+                            "note":  "Optional - Select 1",
+                            "min":  0,
+                            "max":  1,
+                            "options":  [
+                                            {
+                                                "id":  "white",
+                                                "name":  "White Bread",
+                                                "price":  0
+                                            },
+                                            {
+                                                "id":  "brown",
+                                                "name":  "Brown Bread",
+                                                "price":  30
+                                            },
+                                            {
+                                                "id":  "croissant",
+                                                "name":  "Croissant",
+                                                "price":  99
+                                            }
+                                        ]
+                        }
+                    ],
+    "categories":  [
+                       {
+                           "id":  "pasta-risotto",
+                           "title":  "Pasta \u0026 Risotto",
+                           "items":  [
+                                         {
+                                             "id":  "pr-1",
+                                             "name":  "Creamy Alfredo",
+                                             "desc":  "Silky cream sauce with gentle garlic warmth.",
+                                             "price":  606,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pasta-protein",
+                                                                   "pasta-choice"
+                                                               ],
+                                             "image":  "images/menu/pasta-risotto/pr-1.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-2",
+                                             "name":  "Mac \u0026 Cheese",
+                                             "desc":  "Comforting cheese sauce with a golden finish.",
+                                             "price":  599,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pasta-protein",
+                                                                   "pasta-choice"
+                                                               ],
+                                             "image":  "images/menu/pasta-risotto/pr-2.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-3",
+                                             "name":  "Aglio Olio Pasta",
+                                             "desc":  "Olive oil, garlic, and herbs with a light bite.",
+                                             "price":  599,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pasta-protein",
+                                                                   "pasta-choice"
+                                                               ],
+                                             "image":  "images/menu/pasta-risotto/pr-3.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-4",
+                                             "name":  "Pesto Pasta",
+                                             "desc":  "Fresh basil pesto with a clean, nutty finish.",
+                                             "price":  559,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pasta-protein",
+                                                                   "pasta-choice"
+                                                               ],
+                                             "image":  "images/menu/pasta-risotto/pr-4.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-5",
+                                             "name":  "Pink Pasta",
+                                             "desc":  "Rosy tomato-cream sauce, balanced and smooth.",
+                                             "price":  629,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pasta-protein",
+                                                                   "pasta-choice"
+                                                               ],
+                                             "image":  "images/menu/pasta-risotto/pr-5.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-6",
+                                             "name":  "Penne Fusion",
+                                             "desc":  "A hearty penne in a rich, blended sauce.",
+                                             "price":  629,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pasta-protein",
+                                                                   "pasta-choice"
+                                                               ],
+                                             "image":  "images/menu/pasta-risotto/pr-6.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-7",
+                                             "name":  "Arrabiata Pasta",
+                                             "desc":  "Spicy tomato sauce with bright Italian herbs.",
+                                             "price":  629,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pasta-protein",
+                                                                   "pasta-choice"
+                                                               ],
+                                             "image":  "images/menu/pasta-risotto/pr-7.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-8",
+                                             "name":  "Marry Me Pasta",
+                                             "desc":  "Creamy tomato sauce with a touch of spice.",
+                                             "price":  707,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pasta-choice"
+                                                               ],
+                                             "image":  "images/menu/pasta-risotto/pr-8.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-9",
+                                             "name":  "Classic Lasagne",
+                                             "desc":  "Layered pasta with rich sauce and cheese.",
+                                             "price":  606,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "lasagne-protein"
+                                                               ],
+                                             "image":  "images/menu/pasta-risotto/pr-9.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-10",
+                                             "name":  "Zucchini Parm Lasagne",
+                                             "desc":  "Zucchini layers baked with parmesan warmth.",
+                                             "price":  729,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "lasagne-protein"
+                                                               ],
+                                             "image":  "images/menu/pasta-risotto/pr-10.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-11",
+                                             "name":  "Four Cheese Risotto",
+                                             "desc":  "Creamy risotto with a bold cheese quartet.",
+                                             "price":  699,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "risotto-protein"
+                                                               ],
+                                             "image":  "images/menu/pasta-risotto/pr-11.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-12",
+                                             "name":  "Mushroom Risotto",
+                                             "desc":  "Earthy mushrooms folded into creamy rice.",
+                                             "price":  599,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "risotto-protein"
+                                                               ],
+                                             "image":  "images/menu/pasta-risotto/pr-12.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-13",
+                                             "name":  "Beetroot Risotto",
+                                             "desc":  "Vivid beetroot with a mellow, creamy finish.",
+                                             "price":  555,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "risotto-protein"
+                                                               ],
+                                             "image":  "images/menu/pasta-risotto/pr-13.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-14",
+                                             "name":  "Saffron Edamame Risotto",
+                                             "desc":  "Saffron rice with tender edamame bites.",
+                                             "price":  649,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "risotto-protein"
+                                                               ],
+                                             "image":  "images/menu/pasta-risotto/pr-14.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-15",
+                                             "name":  "Spaghetti Bolognese",
+                                             "desc":  "Slow-cooked meat sauce with classic spaghetti.",
+                                             "price":  707,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/pasta-risotto/pr-15.jpg"
+                                         },
+                                         {
+                                             "id":  "pr-16",
+                                             "name":  "Spaghetti Meatballs",
+                                             "desc":  "Tender meatballs in a rich tomato sauce.",
+                                             "price":  707,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/pasta-risotto/pr-16.jpg"
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "pizza",
+                           "title":  "Pizza",
+                           "items":  [
+                                         {
+                                             "id":  "pz-1",
+                                             "name":  "Cajun Chicken Pizza [11\"]",
+                                             "desc":  "Cajun-spiced chicken with mozzarella and herbs.",
+                                             "price":  739,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pizza-protein"
+                                                               ],
+                                             "image":  "images/menu/pizza/pz-1.jpg"
+                                         },
+                                         {
+                                             "id":  "pz-2",
+                                             "name":  "Chicken Tikka Pizza",
+                                             "desc":  "Smoky tikka chicken with onion and capsicum.",
+                                             "price":  687,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pizza-protein"
+                                                               ],
+                                             "image":  "images/menu/pizza/pz-2.jpg"
+                                         },
+                                         {
+                                             "id":  "pz-3",
+                                             "name":  "Peri Peri Paneer Pizza [11\"]",
+                                             "desc":  "Peri peri paneer with a tangy spice kick.",
+                                             "price":  699,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pizza-protein"
+                                                               ],
+                                             "image":  "images/menu/pizza/pz-3.jpg"
+                                         },
+                                         {
+                                             "id":  "pz-4",
+                                             "name":  "Paneer Tikka Pizza",
+                                             "desc":  "Tikka paneer, peppers, and mozzarella melt.",
+                                             "price":  649,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pizza-protein"
+                                                               ],
+                                             "image":  "images/menu/pizza/pz-4.jpg"
+                                         },
+                                         {
+                                             "id":  "pz-5",
+                                             "name":  "Genovese Pizza [11\"]",
+                                             "desc":  "Basil pesto base with melty cheese.",
+                                             "price":  639,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pizza-protein"
+                                                               ],
+                                             "image":  "images/menu/pizza/pz-5.jpg"
+                                         },
+                                         {
+                                             "id":  "pz-6",
+                                             "name":  "Portobello Mushroom Pizza [11\"]",
+                                             "desc":  "Portobello mushrooms with mozzarella and herbs.",
+                                             "price":  639,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pizza-protein"
+                                                               ],
+                                             "image":  "images/menu/pizza/pz-6.jpg"
+                                         },
+                                         {
+                                             "id":  "pz-7",
+                                             "name":  "Talk of the Town Pizza [11\"]",
+                                             "desc":  "Loaded with signature toppings and cheese.",
+                                             "price":  649,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pizza-protein"
+                                                               ],
+                                             "image":  "images/menu/pizza/pz-7.jpg"
+                                         },
+                                         {
+                                             "id":  "pz-8",
+                                             "name":  "Margherita Pizza [11\"]",
+                                             "desc":  "Classic tomato, mozzarella, and basil.",
+                                             "price":  539,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pizza-protein"
+                                                               ],
+                                             "image":  "images/menu/pizza/pz-8.jpg"
+                                         },
+                                         {
+                                             "id":  "pz-9",
+                                             "name":  "Farmhouse Pizza [11\"]",
+                                             "desc":  "Loaded veg toppings with a rustic crunch.",
+                                             "price":  639,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pizza-protein"
+                                                               ],
+                                             "image":  "images/menu/pizza/pz-9.jpg"
+                                         },
+                                         {
+                                             "id":  "pz-10",
+                                             "name":  "Veggie Melody Pizza [11\"]",
+                                             "desc":  "Garden vegetables with a rich mozzarella finish.",
+                                             "price":  639,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "pizza-protein"
+                                                               ],
+                                             "image":  "images/menu/pizza/pz-10.jpg"
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "non-veg-starters",
+                           "title":  "Non Veg Starters",
+                           "items":  [
+                                         {
+                                             "id":  "nvs-1",
+                                             "name":  "Chicken Lollipop",
+                                             "desc":  "Crisp, juicy bites with house spice glaze.",
+                                             "price":  499,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-1.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-2",
+                                             "name":  "Chicken Popcorn",
+                                             "desc":  "Crunchy popcorn chicken with a light spice.",
+                                             "price":  403,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-2.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-3",
+                                             "name":  "Thecha Prawns",
+                                             "desc":  "Prawns tossed in a bold thecha masala.",
+                                             "price":  749,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-3.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-4",
+                                             "name":  "Fish Finger",
+                                             "desc":  "Golden-fried fish fingers with crisp edges.",
+                                             "price":  749,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-4.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-5",
+                                             "name":  "Butter Garlic Prawns",
+                                             "desc":  "Succulent prawns in butter garlic glaze.",
+                                             "price":  749,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-5.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-6",
+                                             "name":  "Tao Chicken",
+                                             "desc":  "Sticky, savory chicken with a sweet finish.",
+                                             "price":  539,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-6.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-7",
+                                             "name":  "Charmola Fish",
+                                             "desc":  "Spiced charmola fish with a citrus note.",
+                                             "price":  649,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-7.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-8",
+                                             "name":  "Crumb Fried Chicken",
+                                             "desc":  "Crisp crumb fried chicken with herbs.",
+                                             "price":  549,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-8.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-9",
+                                             "name":  "Pineapple Chicken",
+                                             "desc":  "Sweet pineapple glaze with tender chicken.",
+                                             "price":  549,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-9.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-10",
+                                             "name":  "Harissa Chicken Skewers",
+                                             "desc":  "Harissa-spiced skewers with smoky edges.",
+                                             "price":  539,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-10.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-11",
+                                             "name":  "Chicken Shish-Touk",
+                                             "desc":  "Mediterranean-style chicken with garlic notes.",
+                                             "price":  539,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-11.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-12",
+                                             "name":  "Roasted Buffalo Chicken Wings",
+                                             "desc":  "Roasted wings in a spicy buffalo glaze.",
+                                             "price":  549,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-12.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-13",
+                                             "name":  "Cajun Chicken",
+                                             "desc":  "Cajun-spiced chicken with a smoky finish.",
+                                             "price":  549,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-13.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-14",
+                                             "name":  "Loaded BBQ Chicken Nachos",
+                                             "desc":  "Nachos loaded with BBQ chicken and cheese.",
+                                             "price":  559,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-14.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-15",
+                                             "name":  "Loaded Chicken Nachos",
+                                             "desc":  "Nachos topped with chicken and warm cheese.",
+                                             "price":  549,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-15.jpg"
+                                         },
+                                         {
+                                             "id":  "nvs-16",
+                                             "name":  "Dirty Fries",
+                                             "desc":  "Loaded fries with a rich, savory topping.",
+                                             "price":  499,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/nonveg-starters/nvs-16.jpg"
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "veg-starters",
+                           "title":  "Veg Starters",
+                           "items":  [
+                                         {
+                                             "id":  "vs-1",
+                                             "name":  "House Garlic Bread",
+                                             "desc":  "Toasted garlic bread with a buttery finish.",
+                                             "price":  399,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "garlic-bread-topping"
+                                                               ],
+                                             "image":  "images/menu/veg-starters/vs-1.jpg"
+                                         },
+                                         {
+                                             "id":  "vs-2",
+                                             "name":  "Loaded Nachos",
+                                             "desc":  "Crunchy nachos with creamy cheese drizzle.",
+                                             "price":  489,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "loaded-nachos-protein"
+                                                               ],
+                                             "image":  "images/menu/veg-starters/vs-2.jpg"
+                                         },
+                                         {
+                                             "id":  "vs-3",
+                                             "name":  "Hummus Platter",
+                                             "desc":  "Classic hummus with warm pita sides.",
+                                             "price":  649,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/veg-starters/vs-3.jpg"
+                                         },
+                                         {
+                                             "id":  "vs-4",
+                                             "name":  "Onion Rings",
+                                             "desc":  "Golden onion rings with a crisp finish.",
+                                             "price":  349,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/veg-starters/vs-4.jpg"
+                                         },
+                                         {
+                                             "id":  "vs-5",
+                                             "name":  "Cheesy Potato Bites",
+                                             "desc":  "Crisp bites with a cheesy center.",
+                                             "price":  479,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/veg-starters/vs-5.jpg"
+                                         },
+                                         {
+                                             "id":  "vs-6",
+                                             "name":  "Stir Fried Vegetables",
+                                             "desc":  "Seasonal vegetables tossed in light sauce.",
+                                             "price":  403,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/veg-starters/vs-6.jpg"
+                                         },
+                                         {
+                                             "id":  "vs-7",
+                                             "name":  "Mexican Quinoa Turnover",
+                                             "desc":  "Baked turnover with quinoa and spice.",
+                                             "price":  439,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/veg-starters/vs-7.jpg"
+                                         },
+                                         {
+                                             "id":  "vs-8",
+                                             "name":  "Cajun Mushroom",
+                                             "desc":  "Mushrooms tossed in cajun spice.",
+                                             "price":  383,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/veg-starters/vs-8.jpg"
+                                         },
+                                         {
+                                             "id":  "vs-9",
+                                             "name":  "Bruschetta Trio",
+                                             "desc":  "Three classic bruschetta styles to share.",
+                                             "price":  383,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/veg-starters/vs-9.jpg"
+                                         },
+                                         {
+                                             "id":  "vs-10",
+                                             "name":  "Mediterranean Hummus Duo",
+                                             "desc":  "Twin hummus dips with warm pita.",
+                                             "price":  403,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/veg-starters/vs-10.jpg"
+                                         },
+                                         {
+                                             "id":  "vs-11",
+                                             "name":  "Roasted Quinoa Cake",
+                                             "desc":  "Quinoa cake with a crisp, roasted edge.",
+                                             "price":  389,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/veg-starters/vs-11.jpg"
+                                         },
+                                         {
+                                             "id":  "vs-12",
+                                             "name":  "Paneer Chilli Basil",
+                                             "desc":  "Paneer tossed with chilli and basil.",
+                                             "price":  403,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/veg-starters/vs-12.jpg"
+                                         },
+                                         {
+                                             "id":  "vs-13",
+                                             "name":  "French Fries",
+                                             "desc":  "Classic fries with a light golden crunch.",
+                                             "price":  252,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "fries-topping"
+                                                               ],
+                                             "image":  "images/menu/veg-starters/vs-13.jpg"
+                                         },
+                                         {
+                                             "id":  "vs-14",
+                                             "name":  "Zucchini Boat",
+                                             "desc":  "Roasted zucchini boats with a savory fill.",
+                                             "price":  489,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/veg-starters/vs-14.jpg"
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "main-course",
+                           "title":  "Main Course \u0026 Meals",
+                           "items":  [
+                                         {
+                                             "id":  "mc-1",
+                                             "name":  "Grilled Chicken",
+                                             "desc":  "Herb-grilled chicken with a warm finish.",
+                                             "price":  749,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/main-course/mc-1.jpg"
+                                         },
+                                         {
+                                             "id":  "mc-2",
+                                             "name":  "Stuffed Grilled Chicken",
+                                             "desc":  "Stuffed chicken breast with a rich filling.",
+                                             "price":  959,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/main-course/mc-2.jpg"
+                                         },
+                                         {
+                                             "id":  "mc-3",
+                                             "name":  "Fish and Chips",
+                                             "desc":  "Crisp fish with fries and light seasoning.",
+                                             "price":  749,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/main-course/mc-3.jpg"
+                                         },
+                                         {
+                                             "id":  "mc-4",
+                                             "name":  "Minced Grilled Chicken Steak",
+                                             "desc":  "Minced chicken steak with house seasoning.",
+                                             "price":  699,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/main-course/mc-4.jpg"
+                                         },
+                                         {
+                                             "id":  "mc-5",
+                                             "name":  "Chicken Stroganoff",
+                                             "desc":  "Creamy stroganoff with tender chicken.",
+                                             "price":  749,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/main-course/mc-5.jpg"
+                                         },
+                                         {
+                                             "id":  "mc-6",
+                                             "name":  "Veg Special Steak",
+                                             "desc":  "Hearty veg steak with a rich glaze.",
+                                             "price":  649,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/main-course/mc-6.jpg"
+                                         },
+                                         {
+                                             "id":  "mc-7",
+                                             "name":  "Thai Curry with Lemon Basil Rice",
+                                             "desc":  "Fragrant curry served with lemon basil rice.",
+                                             "price":  649,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "sauce-protein"
+                                                               ],
+                                             "image":  "images/menu/main-course/mc-7.jpg"
+                                         },
+                                         {
+                                             "id":  "mc-8",
+                                             "name":  "Black Bean Sauce",
+                                             "desc":  "Black bean sauce with vegetables and rice.",
+                                             "price":  539,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "sauce-protein"
+                                                               ],
+                                             "image":  "images/menu/main-course/mc-8.jpg"
+                                         },
+                                         {
+                                             "id":  "mc-9",
+                                             "name":  "Chilli Basil Sauce",
+                                             "desc":  "Chilli basil sauce with a gentle heat.",
+                                             "price":  499,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "sauce-protein"
+                                                               ],
+                                             "image":  "images/menu/main-course/mc-9.jpg"
+                                         },
+                                         {
+                                             "id":  "mc-10",
+                                             "name":  "Kung Pao Sauce",
+                                             "desc":  "Kung pao sauce with crunchy accents.",
+                                             "price":  549,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "sauce-protein"
+                                                               ],
+                                             "image":  "images/menu/main-course/mc-10.jpg"
+                                         },
+                                         {
+                                             "id":  "mc-11",
+                                             "name":  "Hoisin Sauce",
+                                             "desc":  "Hoisin glaze with a sweet, savory note.",
+                                             "price":  499,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "sauce-protein"
+                                                               ],
+                                             "image":  "images/menu/main-course/mc-11.jpg"
+                                         },
+                                         {
+                                             "id":  "mc-12",
+                                             "name":  "Hot Garlic Sauce",
+                                             "desc":  "Hot garlic sauce with bold, warm spice.",
+                                             "price":  499,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "sauce-protein"
+                                                               ],
+                                             "image":  "images/menu/main-course/mc-12.jpg"
+                                         },
+                                         {
+                                             "id":  "mc-13",
+                                             "name":  "Shahi Paneer with Paratha",
+                                             "desc":  "Creamy shahi paneer with soft paratha.",
+                                             "price":  549,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/main-course/mc-13.jpg"
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "all-day-breakfast",
+                           "title":  "All Day Breakfast",
+                           "items":  [
+                                         {
+                                             "id":  "ab-1",
+                                             "name":  "Omelette",
+                                             "desc":  "Fluffy omelette with your choice of toppings.",
+                                             "price":  353,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "omelette-toppings"
+                                                               ],
+                                             "image":  "images/menu/all-day-breakfast/ab-1.jpg"
+                                         },
+                                         {
+                                             "id":  "ab-2",
+                                             "name":  "Greg\u0027s Non Veg Breakfast",
+                                             "desc":  "Hearty breakfast plate with eggs and sides.",
+                                             "price":  689,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "nonveg-breakfast-eggs"
+                                                               ],
+                                             "image":  "images/menu/all-day-breakfast/ab-2.jpg"
+                                         },
+                                         {
+                                             "id":  "ab-3",
+                                             "name":  "Waffle",
+                                             "desc":  "Golden waffle served warm and crisp.",
+                                             "price":  499,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "waffle-toppings"
+                                                               ],
+                                             "image":  "images/menu/all-day-breakfast/ab-3.jpg"
+                                         },
+                                         {
+                                             "id":  "ab-4",
+                                             "name":  "Pancake (Eggless)",
+                                             "desc":  "Soft eggless pancakes with a light finish.",
+                                             "price":  399,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "waffle-toppings"
+                                                               ],
+                                             "image":  "images/menu/all-day-breakfast/ab-4.jpg"
+                                         },
+                                         {
+                                             "id":  "ab-5",
+                                             "name":  "Pancake (Egg)",
+                                             "desc":  "Classic pancakes with a buttery aroma.",
+                                             "price":  449,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "waffle-toppings"
+                                                               ],
+                                             "image":  "images/menu/all-day-breakfast/ab-5.jpg"
+                                         },
+                                         {
+                                             "id":  "ab-6",
+                                             "name":  "Greg\u0027s Veg Breakfast",
+                                             "desc":  "Wholesome veg breakfast with warm sides.",
+                                             "price":  556,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/all-day-breakfast/ab-6.jpg"
+                                         },
+                                         {
+                                             "id":  "ab-7",
+                                             "name":  "Edamame Mushroom Toast",
+                                             "desc":  "Edamame and mushroom on toasted bread.",
+                                             "price":  403,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/all-day-breakfast/ab-7.jpg"
+                                         },
+                                         {
+                                             "id":  "ab-8",
+                                             "name":  "Exotic Veggie Toast",
+                                             "desc":  "Seasonal veggies on toasted bread.",
+                                             "price":  455,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/all-day-breakfast/ab-8.jpg"
+                                         },
+                                         {
+                                             "id":  "ab-9",
+                                             "name":  "Wild Mushroom Toast",
+                                             "desc":  "Wild mushrooms on warm toast.",
+                                             "price":  454,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/all-day-breakfast/ab-9.jpg"
+                                         },
+                                         {
+                                             "id":  "ab-10",
+                                             "name":  "French Toast",
+                                             "desc":  "Soft French toast with a sweet finish.",
+                                             "price":  353,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/all-day-breakfast/ab-10.jpg"
+                                         },
+                                         {
+                                             "id":  "ab-11",
+                                             "name":  "Oats Bowl",
+                                             "desc":  "Comforting oats bowl with a smooth finish.",
+                                             "price":  253,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/all-day-breakfast/ab-11.jpg"
+                                         },
+                                         {
+                                             "id":  "ab-12",
+                                             "name":  "Choice Of Eggs",
+                                             "desc":  "Choose your eggs, cooked to order.",
+                                             "price":  201,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/all-day-breakfast/ab-12.jpg"
+                                         },
+                                         {
+                                             "id":  "ab-13",
+                                             "name":  "Fruit Platter",
+                                             "desc":  "Seasonal fruits served fresh and chilled.",
+                                             "price":  353,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/all-day-breakfast/ab-13.jpg"
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "rice-noodles",
+                           "title":  "Rice \u0026 Noodles",
+                           "items":  [
+                                         {
+                                             "id":  "rn-1",
+                                             "name":  "Fried Rice",
+                                             "desc":  "Wok-tossed rice with light seasoning.",
+                                             "price":  479,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "rice-noodles-protein"
+                                                               ],
+                                             "image":  "images/menu/rice-noodles/rn-1.jpg"
+                                         },
+                                         {
+                                             "id":  "rn-2",
+                                             "name":  "Pot Rice",
+                                             "desc":  "Pot rice cooked with fragrant spices.",
+                                             "price":  629,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "rice-noodles-protein"
+                                                               ],
+                                             "image":  "images/menu/rice-noodles/rn-2.jpg"
+                                         },
+                                         {
+                                             "id":  "rn-3",
+                                             "name":  "Chilli Garlic Noodles",
+                                             "desc":  "Noodles with chilli garlic heat.",
+                                             "price":  489,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "rice-noodles-protein"
+                                                               ],
+                                             "image":  "images/menu/rice-noodles/rn-3.jpg"
+                                         },
+                                         {
+                                             "id":  "rn-4",
+                                             "name":  "Hakka Noodles",
+                                             "desc":  "Classic hakka noodles with vegetables.",
+                                             "price":  479,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "rice-noodles-protein"
+                                                               ],
+                                             "image":  "images/menu/rice-noodles/rn-4.jpg"
+                                         },
+                                         {
+                                             "id":  "rn-5",
+                                             "name":  "Chilli Garlic Rice",
+                                             "desc":  "Chilli garlic rice with a bold aroma.",
+                                             "price":  479,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "rice-noodles-protein"
+                                                               ],
+                                             "image":  "images/menu/rice-noodles/rn-5.jpg"
+                                         },
+                                         {
+                                             "id":  "rn-6",
+                                             "name":  "Coriander Noodles",
+                                             "desc":  "Herby noodles with fresh coriander.",
+                                             "price":  454,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "rice-noodles-protein"
+                                                               ],
+                                             "image":  "images/menu/rice-noodles/rn-6.jpg"
+                                         },
+                                         {
+                                             "id":  "rn-7",
+                                             "name":  "Schezwan Rice",
+                                             "desc":  "Schezwan-spiced rice with a gentle heat.",
+                                             "price":  499,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "rice-noodles-protein"
+                                                               ],
+                                             "image":  "images/menu/rice-noodles/rn-7.jpg"
+                                         },
+                                         {
+                                             "id":  "rn-8",
+                                             "name":  "Schezwan Noodles",
+                                             "desc":  "Schezwan noodles with bold spice notes.",
+                                             "price":  499,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "rice-noodles-protein"
+                                                               ],
+                                             "image":  "images/menu/rice-noodles/rn-8.jpg"
+                                         },
+                                         {
+                                             "id":  "rn-9",
+                                             "name":  "Coriander Rice",
+                                             "desc":  "Coriander-scented rice with a soft finish.",
+                                             "price":  454,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "rice-noodles-protein"
+                                                               ],
+                                             "image":  "images/menu/rice-noodles/rn-9.jpg"
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "salad",
+                           "title":  "Salad",
+                           "items":  [
+                                         {
+                                             "id":  "sa-1",
+                                             "name":  "Edamame Salad",
+                                             "desc":  "Edamame, greens, and a light dressing.",
+                                             "price":  403,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "salad-protein"
+                                                               ],
+                                             "image":  "images/menu/salad/sa-1.jpg"
+                                         },
+                                         {
+                                             "id":  "sa-2",
+                                             "name":  "Greek Salad",
+                                             "desc":  "Cucumber, olives, feta, and herbs.",
+                                             "price":  399,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "salad-protein"
+                                                               ],
+                                             "image":  "images/menu/salad/sa-2.jpg"
+                                         },
+                                         {
+                                             "id":  "sa-3",
+                                             "name":  "Caesar\u0027s Salad",
+                                             "desc":  "Crisp greens with a creamy Caesar dressing.",
+                                             "price":  429,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "salad-protein"
+                                                               ],
+                                             "image":  "images/menu/salad/sa-3.jpg"
+                                         },
+                                         {
+                                             "id":  "sa-4",
+                                             "name":  "Roasted Chicken Salad",
+                                             "desc":  "Roasted chicken with fresh salad greens.",
+                                             "price":  505,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/salad/sa-4.jpg"
+                                         },
+                                         {
+                                             "id":  "sa-5",
+                                             "name":  "Warm Chicken Salad",
+                                             "desc":  "Warm chicken with a light herb dressing.",
+                                             "price":  505,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/salad/sa-5.jpg"
+                                         },
+                                         {
+                                             "id":  "sa-6",
+                                             "name":  "Watermelon Feta Salad",
+                                             "desc":  "Watermelon, feta, and mint freshness.",
+                                             "price":  454,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/salad/sa-6.jpg"
+                                         },
+                                         {
+                                             "id":  "sa-7",
+                                             "name":  "Seafood Salad",
+                                             "desc":  "Seafood tossed with crisp greens.",
+                                             "price":  606,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/salad/sa-7.jpg"
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "sides",
+                           "title":  "Sides",
+                           "items":  [
+                                         {
+                                             "id":  "sd-1",
+                                             "name":  "Chicken Sausage",
+                                             "desc":  "Juicy chicken sausage, lightly seared.",
+                                             "price":  302,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/sides/sd-1.jpg"
+                                         },
+                                         {
+                                             "id":  "sd-2",
+                                             "name":  "Mash Potato",
+                                             "desc":  "Creamy mashed potato with butter.",
+                                             "price":  201,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/sides/sd-2.jpg"
+                                         },
+                                         {
+                                             "id":  "sd-3",
+                                             "name":  "Bread \u0026 Butter",
+                                             "desc":  "Soft bread with butter.",
+                                             "price":  151,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/sides/sd-3.jpg"
+                                         },
+                                         {
+                                             "id":  "sd-4",
+                                             "name":  "Pita Bread",
+                                             "desc":  "Warm pita bread served plain.",
+                                             "price":  100,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/sides/sd-4.jpg"
+                                         },
+                                         {
+                                             "id":  "sd-5",
+                                             "name":  "Chicken (Side)",
+                                             "desc":  "Portion of grilled chicken.",
+                                             "price":  120,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/sides/sd-5.jpg"
+                                         },
+                                         {
+                                             "id":  "sd-6",
+                                             "name":  "Extra Cheese",
+                                             "desc":  "Extra cheese add-on portion.",
+                                             "price":  50,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/sides/sd-6.jpg"
+                                         },
+                                         {
+                                             "id":  "sd-7",
+                                             "name":  "Nutella Bread",
+                                             "desc":  "Toasted bread with Nutella spread.",
+                                             "price":  201,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/sides/sd-7.jpg"
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "soups",
+                           "title":  "Soups",
+                           "items":  [
+                                         {
+                                             "id":  "sp-1",
+                                             "name":  "Creamy Chicken Soup",
+                                             "desc":  "Creamy chicken soup with gentle herbs.",
+                                             "price":  353,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/soups/sp-1.jpg"
+                                         },
+                                         {
+                                             "id":  "sp-2",
+                                             "name":  "Creamy Broccoli Soup",
+                                             "desc":  "Broccoli soup with a smooth finish.",
+                                             "price":  369,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "soup-protein"
+                                                               ],
+                                             "image":  "images/menu/soups/sp-2.jpg"
+                                         },
+                                         {
+                                             "id":  "sp-3",
+                                             "name":  "Creamy Mushroom Soup",
+                                             "desc":  "Mushroom soup with a velvety texture.",
+                                             "price":  359,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "soup-protein"
+                                                               ],
+                                             "image":  "images/menu/soups/sp-3.jpg"
+                                         },
+                                         {
+                                             "id":  "sp-4",
+                                             "name":  "Lung-fung Soup",
+                                             "desc":  "Light Asian soup with fresh aromatics.",
+                                             "price":  389,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "soup-protein"
+                                                               ],
+                                             "image":  "images/menu/soups/sp-4.jpg"
+                                         },
+                                         {
+                                             "id":  "sp-5",
+                                             "name":  "Lemon Coriander Soup",
+                                             "desc":  "Bright lemon and coriander broth.",
+                                             "price":  329,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "soup-protein"
+                                                               ],
+                                             "image":  "images/menu/soups/sp-5.jpg"
+                                         },
+                                         {
+                                             "id":  "sp-6",
+                                             "name":  "Clear Soup",
+                                             "desc":  "Clear vegetable soup with gentle seasoning.",
+                                             "price":  329,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "soup-protein"
+                                                               ],
+                                             "image":  "images/menu/soups/sp-6.jpg"
+                                         },
+                                         {
+                                             "id":  "sp-7",
+                                             "name":  "Manchow Soup",
+                                             "desc":  "Manchow soup with crisp garnish.",
+                                             "price":  329,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "soup-protein"
+                                                               ],
+                                             "image":  "images/menu/soups/sp-7.jpg"
+                                         },
+                                         {
+                                             "id":  "sp-8",
+                                             "name":  "Tomato Basil Soup",
+                                             "desc":  "Tomato soup with basil aroma.",
+                                             "price":  329,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "soup-protein"
+                                                               ],
+                                             "image":  "images/menu/soups/sp-8.jpg"
+                                         },
+                                         {
+                                             "id":  "sp-9",
+                                             "name":  "Tom Yum Soup",
+                                             "desc":  "Tom yum broth with a tangy kick.",
+                                             "price":  359,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "soup-protein"
+                                                               ],
+                                             "image":  "images/menu/soups/sp-9.jpg"
+                                         },
+                                         {
+                                             "id":  "sp-10",
+                                             "name":  "Sweet Corn Soup",
+                                             "desc":  "Sweet corn soup with a smooth texture.",
+                                             "price":  329,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "soup-protein"
+                                                               ],
+                                             "image":  "images/menu/soups/sp-10.jpg"
+                                         },
+                                         {
+                                             "id":  "sp-11",
+                                             "name":  "Hot and Sour Soup",
+                                             "desc":  "Hot and sour soup with bold flavor.",
+                                             "price":  329,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "soup-protein"
+                                                               ],
+                                             "image":  "images/menu/soups/sp-11.jpg"
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "burgers",
+                           "title":  "Burgers",
+                           "items":  [
+                                         {
+                                             "id":  "bg-1",
+                                             "name":  "Green Dream Burger",
+                                             "desc":  "Herby veg patty with fresh crunch.",
+                                             "price":  454,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/burgers/bg-1.jpg"
+                                         },
+                                         {
+                                             "id":  "bg-2",
+                                             "name":  "Peri Peri Chicken Burger",
+                                             "desc":  "Peri peri chicken with creamy sauce.",
+                                             "price":  505,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/burgers/bg-2.jpg"
+                                         },
+                                         {
+                                             "id":  "bg-3",
+                                             "name":  "Pesto Chicken Burger",
+                                             "desc":  "Pesto chicken with lettuce and cheese.",
+                                             "price":  505,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/burgers/bg-3.jpg"
+                                         },
+                                         {
+                                             "id":  "bg-4",
+                                             "name":  "Pulled Chicken Burger",
+                                             "desc":  "Pulled chicken with smoky sauce.",
+                                             "price":  505,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/burgers/bg-4.jpg"
+                                         },
+                                         {
+                                             "id":  "bg-5",
+                                             "name":  "Roast Chicken Burger",
+                                             "desc":  "Roast chicken with a rich house spread.",
+                                             "price":  505,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "image":  "images/menu/burgers/bg-5.jpg"
+                                         },
+                                         {
+                                             "id":  "bg-6",
+                                             "name":  "Spicy Paneer Burger",
+                                             "desc":  "Spicy paneer with crisp vegetables.",
+                                             "price":  454,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/burgers/bg-6.jpg"
+                                         },
+                                         {
+                                             "id":  "bg-7",
+                                             "name":  "Sri Lankan Spice Burger",
+                                             "desc":  "Spiced veg patty with bold flavors.",
+                                             "price":  454,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/burgers/bg-7.jpg"
+                                         },
+                                         {
+                                             "id":  "bg-8",
+                                             "name":  "Truffle Mushroom Burger",
+                                             "desc":  "Mushroom patty with a truffle note.",
+                                             "price":  499,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "image":  "images/menu/burgers/bg-8.jpg"
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "sandwiches",
+                           "title":  "Sandwiches",
+                           "items":  [
+                                         {
+                                             "id":  "sw-1",
+                                             "name":  "Greg\u0027s Grilled Cheese Sandwich",
+                                             "desc":  "Golden grilled cheese with a crisp finish.",
+                                             "price":  403,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "sandwich-bread"
+                                                               ],
+                                             "image":  "images/menu/sandwiches/sw-1.jpg"
+                                         },
+                                         {
+                                             "id":  "sw-2",
+                                             "name":  "Veg Classic Club Sandwich",
+                                             "desc":  "Classic veg club with fresh layers.",
+                                             "price":  403,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "sandwich-bread"
+                                                               ],
+                                             "image":  "images/menu/sandwiches/sw-2.jpg"
+                                         },
+                                         {
+                                             "id":  "sw-3",
+                                             "name":  "Non-Veg Classic Club Sandwich",
+                                             "desc":  "Classic club stacked with chicken.",
+                                             "price":  505,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "sandwich-bread"
+                                                               ],
+                                             "image":  "images/menu/sandwiches/sw-3.jpg"
+                                         },
+                                         {
+                                             "id":  "sw-4",
+                                             "name":  "Veggie Avocado Club Sandwich",
+                                             "desc":  "Avocado and veg with a creamy spread.",
+                                             "price":  699,
+                                             "veg":  true,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "sandwich-bread"
+                                                               ],
+                                             "image":  "images/menu/sandwiches/sw-4.jpg"
+                                         },
+                                         {
+                                             "id":  "sw-5",
+                                             "name":  "Pulled Chicken Sandwich",
+                                             "desc":  "Pulled chicken with a smoky dressing.",
+                                             "price":  549,
+                                             "veg":  false,
+                                             "available":  true,
+                                             "addonGroupIds":  [
+                                                                   "sandwich-bread"
+                                                               ],
+                                             "image":  "images/menu/sandwiches/sw-5.jpg"
+                                         }
+                       ]
+                      },
+                      {
+                          "id":  "desserts",
+                          "title":  "Desserts",
+                          "items":  [
+                                        {
+                                            "id":  "ds-1",
+                                            "name":  "Baked Cheese Cake",
+                                            "desc":  "Silky baked cheesecake with a buttery crust.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/desserts/ds-1.jpg"
+                                        },
+                                        {
+                                            "id":  "ds-2",
+                                            "name":  "Chocolate Lava",
+                                            "desc":  "Warm molten chocolate with a rich center.",
+                                            "price":  279,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/desserts/ds-2.jpg"
+                                        },
+                                        {
+                                            "id":  "ds-3",
+                                            "name":  "Chocolate Brownie",
+                                            "desc":  "Dense cocoa brownie with a glossy finish.",
+                                            "price":  259,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/desserts/ds-3.jpg"
+                                        },
+                                        {
+                                            "id":  "ds-4",
+                                            "name":  "Slice Of The Day",
+                                            "desc":  "Freshly baked seasonal slice, chef selected.",
+                                            "price":  434,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/desserts/ds-4.jpg"
+                                        },
+                                        {
+                                            "id":  "ds-5",
+                                            "name":  "Manu's Chocolate Bar",
+                                            "desc":  "Signature chocolate bar with layered crunch.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/desserts/ds-5.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "iced-coffee",
+                          "title":  "Iced Coffee",
+                          "items":  [
+                                        {
+                                            "id":  "ic-1",
+                                            "name":  "Classic Cold Coffee",
+                                            "desc":  "Smooth chilled coffee with a creamy finish.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-1.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-2",
+                                            "name":  "Hazelnut Frappuccino",
+                                            "desc":  "Nutty frappuccino with a velvet chill.",
+                                            "price":  359,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-2.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-3",
+                                            "name":  "Iced Mocha",
+                                            "desc":  "Espresso, cocoa, and milk over ice.",
+                                            "price":  353,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-3.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-4",
+                                            "name":  "Iced Maple Cinnamon Latte",
+                                            "desc":  "Maple sweetness with cinnamon spice.",
+                                            "price":  340,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-4.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-5",
+                                            "name":  "Salted Caramel Frappuccino",
+                                            "desc":  "Caramel richness with a salted finish.",
+                                            "price":  359,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-5.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-6",
+                                            "name":  "Citrus Cold Brew",
+                                            "desc":  "Cold brew brightened with citrus notes.",
+                                            "price":  279,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-6.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-7",
+                                            "name":  "Vegan Cold Coffee",
+                                            "desc":  "Plant-based chilled coffee, smooth and clean.",
+                                            "price":  399,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-7.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-8",
+                                            "name":  "Iced Vietnamese (cold brew)",
+                                            "desc":  "Cold brew with sweet condensed milk.",
+                                            "price":  333,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-8.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-9",
+                                            "name":  "Iced Cappuccino",
+                                            "desc":  "Chilled espresso with frothy milk.",
+                                            "price":  259,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-9.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-10",
+                                            "name":  "Iced Vietnamese (espresso)",
+                                            "desc":  "Espresso pour with sweet milk on ice.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-10.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-11",
+                                            "name":  "Iced Irish Coffee",
+                                            "desc":  "Iced coffee with Irish cream notes.",
+                                            "price":  339,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-11.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-12",
+                                            "name":  "Iced Sea Salt Americano",
+                                            "desc":  "Americano with a subtle sea salt lift.",
+                                            "price":  353,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-12.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-13",
+                                            "name":  "Toffee Cold Coffee",
+                                            "desc":  "Toffee sweetness in a creamy chill.",
+                                            "price":  359,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-13.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-14",
+                                            "name":  "Espresso Ale",
+                                            "desc":  "Sparkling espresso with crisp finish.",
+                                            "price":  302,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-14.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-15",
+                                            "name":  "Creme Cold Brew",
+                                            "desc":  "Cold brew crowned with soft cream.",
+                                            "price":  302,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-15.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-16",
+                                            "name":  "Classic Cold Brew",
+                                            "desc":  "Slow steeped cold brew, clean and bold.",
+                                            "price":  279,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-16.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-17",
+                                            "name":  "Affogato",
+                                            "desc":  "Espresso poured over artisan ice cream.",
+                                            "price":  299,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-17.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-18",
+                                            "name":  "Cranberry Cold Brew",
+                                            "desc":  "Tart cranberry layered with cold brew.",
+                                            "price":  302,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-18.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-19",
+                                            "name":  "Espresso Tonic",
+                                            "desc":  "Bright tonic topped with espresso.",
+                                            "price":  302,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-19.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-20",
+                                            "name":  "Butterscotch Affogato",
+                                            "desc":  "Butterscotch gelato with espresso pour.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-20.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-21",
+                                            "name":  "Chocolate Frappuccino",
+                                            "desc":  "Cocoa-rich frappe blended to a chill.",
+                                            "price":  359,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-21.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-22",
+                                            "name":  "Iced Americano",
+                                            "desc":  "Crisp iced espresso with pure finish.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-22.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-23",
+                                            "name":  "Iced Strawberry Mocha",
+                                            "desc":  "Strawberry and mocha in a creamy chill.",
+                                            "price":  333,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-23.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-24",
+                                            "name":  "Nutella Affogato",
+                                            "desc":  "Nutella gelato kissed with espresso.",
+                                            "price":  339,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-24.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-25",
+                                            "name":  "Oj Espresso",
+                                            "desc":  "Orange juice with espresso lift.",
+                                            "price":  262,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-25.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-26",
+                                            "name":  "Vanilla Frappuccino",
+                                            "desc":  "Vanilla cream frappe with a soft finish.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-26.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-27",
+                                            "name":  "Watermelon Cold Brew",
+                                            "desc":  "Juicy watermelon brightened cold brew.",
+                                            "price":  282,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-27.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "hot-chocolate",
+                          "title":  "Hot Chocolate",
+                          "items":  [
+                                        {
+                                            "id":  "hotch-1",
+                                            "name":  "Matcha White Chocolate",
+                                            "desc":  "White chocolate with a matcha swirl.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-chocolate/hotch-1.jpg"
+                                        },
+                                        {
+                                            "id":  "hotch-2",
+                                            "name":  "Mexican Hot Chocolate",
+                                            "desc":  "Cocoa with warm spice and cinnamon.",
+                                            "price":  349,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-chocolate/hotch-2.jpg"
+                                        },
+                                        {
+                                            "id":  "hotch-3",
+                                            "name":  "Classic Hot Chocolate",
+                                            "desc":  "Classic cocoa with a velvety finish.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-chocolate/hotch-3.jpg"
+                                        },
+                                        {
+                                            "id":  "hotch-4",
+                                            "name":  "Vegan Hot Chocolate",
+                                            "desc":  "Plant-based cocoa, rich and creamy.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-chocolate/hotch-4.jpg"
+                                        },
+                                        {
+                                            "id":  "hotch-5",
+                                            "name":  "Strawberry White Chocolate",
+                                            "desc":  "Strawberry notes in white chocolate.",
+                                            "price":  379,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-chocolate/hotch-5.jpg"
+                                        },
+                                        {
+                                            "id":  "hotch-6",
+                                            "name":  "Nutella Hot Chocolate",
+                                            "desc":  "Nutella cocoa with a silky finish.",
+                                            "price":  359,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-chocolate/hotch-6.jpg"
+                                        },
+                                        {
+                                            "id":  "hotch-7",
+                                            "name":  "Oreo Hot Chocolate",
+                                            "desc":  "Cocoa with crushed Oreo swirls.",
+                                            "price":  359,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-chocolate/hotch-7.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "tea-matcha",
+                          "title":  "Tea & Matcha",
+                          "items":  [
+                                        {
+                                            "id":  "tm-1",
+                                            "name":  "Strawberry Matcha",
+                                            "desc":  "Matcha latte with strawberry sweetness.",
+                                            "price":  419,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-1.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-2",
+                                            "name":  "Matcha Vanilla Affogato",
+                                            "desc":  "Vanilla gelato with matcha pour.",
+                                            "price":  409,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-2.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-3",
+                                            "name":  "Matcha Latte",
+                                            "desc":  "Ceremonial matcha with steamed milk.",
+                                            "price":  399,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-3.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-4",
+                                            "name":  "Iced Cranberry Matcha",
+                                            "desc":  "Cranberry brightness with chilled matcha.",
+                                            "price":  409,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-4.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-5",
+                                            "name":  "Vegan Matcha Latte",
+                                            "desc":  "Plant-based matcha, smooth and clean.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-5.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-6",
+                                            "name":  "Iced Blueberry Matcha",
+                                            "desc":  "Blueberry accents with iced matcha.",
+                                            "price":  419,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-6.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-7",
+                                            "name":  "Alpine Wildberry",
+                                            "desc":  "Fragrant berry tea with floral lift.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-7.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-8",
+                                            "name":  "Earl Grey",
+                                            "desc":  "Classic bergamot black tea.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-8.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-9",
+                                            "name":  "Minty Hibiscus",
+                                            "desc":  "Hibiscus tea with mint freshness.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-9.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-10",
+                                            "name":  "Tulsi Green Tea",
+                                            "desc":  "Tulsi and green tea, soothing and clean.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-10.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-11",
+                                            "name":  "Greg's Blend",
+                                            "desc":  "House tea blend with gentle spice.",
+                                            "price":  379,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-11.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-12",
+                                            "name":  "Iced Watermelon Matcha",
+                                            "desc":  "Watermelon notes with chilled matcha.",
+                                            "price":  419,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-12.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-13",
+                                            "name":  "Masala Chai",
+                                            "desc":  "Classic chai with warm spices.",
+                                            "price":  259,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-13.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-14",
+                                            "name":  "Vanilla, Rose & Ginger",
+                                            "desc":  "Aromatic tea with floral spice notes.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-14.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "cold-beverages",
+                          "title":  "Cold Beverages",
+                          "items":  [
+                                        {
+                                            "id":  "cb-1",
+                                            "name":  "Peach Iced Tea",
+                                            "desc":  "Peach tea with a mellow finish.",
+                                            "price":  299,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-1.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-2",
+                                            "name":  "Blueberry Iced Tea",
+                                            "desc":  "Blueberry tea with a bright lift.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-2.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-3",
+                                            "name":  "Elderflower Iced Tea",
+                                            "desc":  "Floral elderflower tea, lightly chilled.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-3.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-4",
+                                            "name":  "Strawberry Iced Tea",
+                                            "desc":  "Strawberry tea with a soft sweetness.",
+                                            "price":  299,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-4.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-5",
+                                            "name":  "Pineapple Mojito",
+                                            "desc":  "Pineapple mint mojito, crisp and bright.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-5.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-6",
+                                            "name":  "Watermelon Mojito",
+                                            "desc":  "Watermelon mint mojito, light and cool.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-6.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-7",
+                                            "name":  "Orange Slushee",
+                                            "desc":  "Citrus slushee with sunny zest.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-7.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-8",
+                                            "name":  "Lemon Iced Tea",
+                                            "desc":  "Classic lemon tea, crisp and clean.",
+                                            "price":  299,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-8.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-9",
+                                            "name":  "Classic Mojito",
+                                            "desc":  "Mint-lime mojito with sparkling lift.",
+                                            "price":  279,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-9.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-10",
+                                            "name":  "Kiwi Slushee",
+                                            "desc":  "Kiwi slushee with tangy chill.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-10.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-11",
+                                            "name":  "Mango Slushee",
+                                            "desc":  "Mango slushee, tropical and smooth.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-11.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-12",
+                                            "name":  "Strawberry Slushee",
+                                            "desc":  "Strawberry slushee with juicy sweetness.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-12.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-13",
+                                            "name":  "Ginger Ale",
+                                            "desc":  "Lightly spiced ginger sparkle.",
+                                            "price":  201,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-13.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-14",
+                                            "name":  "Fresh Lime",
+                                            "desc":  "Fresh lime soda with crisp finish.",
+                                            "price":  199,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-14.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-15",
+                                            "name":  "Kiwi Cooler",
+                                            "desc":  "Chilled kiwi cooler with a zing.",
+                                            "price":  299,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-15.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-16",
+                                            "name":  "Minty Hibiscus Iced Tea",
+                                            "desc":  "Hibiscus iced tea with mint lift.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-16.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-17",
+                                            "name":  "Rose Vanilla Sparkling Iced Tea",
+                                            "desc":  "Sparkling tea with rose and vanilla.",
+                                            "price":  201,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-17.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-18",
+                                            "name":  "Strawberry Lemonade Sparkling Iced Tea",
+                                            "desc":  "Strawberry lemonade with sparkling tea.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-18.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-19",
+                                            "name":  "Watermelon Iced Tea",
+                                            "desc":  "Watermelon tea with a refreshing chill.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-19.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "milkshakes",
+                          "title":  "Milkshakes",
+                          "items":  [
+                                        {
+                                            "id":  "ms-1",
+                                            "name":  "Belgium Chocolate Milkshake",
+                                            "desc":  "Belgian chocolate shake, luxuriously thick.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-1.jpg"
+                                        },
+                                        {
+                                            "id":  "ms-2",
+                                            "name":  "Nutella Brownie Milkshake",
+                                            "desc":  "Nutella and brownie blended smooth.",
+                                            "price":  499,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-2.jpg"
+                                        },
+                                        {
+                                            "id":  "ms-3",
+                                            "name":  "Brownie Milkshake",
+                                            "desc":  "Chocolate brownie shake with rich depth.",
+                                            "price":  499,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-3.jpg"
+                                        },
+                                        {
+                                            "id":  "ms-4",
+                                            "name":  "Nutella Milkshake",
+                                            "desc":  "Creamy Nutella shake with cocoa warmth.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-4.jpg"
+                                        },
+                                        {
+                                            "id":  "ms-5",
+                                            "name":  "Oreo Milkshake",
+                                            "desc":  "Crushed Oreo shake with creamy finish.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-5.jpg"
+                                        },
+                                        {
+                                            "id":  "ms-6",
+                                            "name":  "Strawberry Milkshake",
+                                            "desc":  "Strawberry shake, light and silky.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-6.jpg"
+                                        },
+                                        {
+                                            "id":  "ms-7",
+                                            "name":  "Blueberry/Strawberry Cheesecake Milkshake",
+                                            "desc":  "Cheesecake shake with berry swirl.",
+                                            "price":  449,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-7.jpg"
+                                        },
+                                        {
+                                            "id":  "ms-8",
+                                            "name":  "Oreo Nutella Milkshake",
+                                            "desc":  "Oreo and Nutella, decadently blended.",
+                                            "price":  449,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-8.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "hot-coffee",
+                          "title":  "Hot Coffee",
+                          "items":  [
+                                        {
+                                            "id":  "hco-1",
+                                            "name":  "Spanish Latte",
+                                            "desc":  "Rich latte with sweetened milk.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-1.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-2",
+                                            "name":  "Irish Coffee",
+                                            "desc":  "Coffee with Irish cream warmth.",
+                                            "price":  339,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-2.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-3",
+                                            "name":  "Maple Cinnamon Latte",
+                                            "desc":  "Latte sweetened with maple spice.",
+                                            "price":  349,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-3.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-4",
+                                            "name":  "Americano",
+                                            "desc":  "Classic espresso with hot water.",
+                                            "price":  269,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-4.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-5",
+                                            "name":  "French Press",
+                                            "desc":  "Full-bodied brew, slow pressed.",
+                                            "price":  270,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-5.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-6",
+                                            "name":  "Cappuccino",
+                                            "desc":  "Foamy cappuccino with rich crema.",
+                                            "price":  280,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-6.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-7",
+                                            "name":  "Filter Coffee",
+                                            "desc":  "Traditional filter brew, smooth and bold.",
+                                            "price":  242,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-7.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-8",
+                                            "name":  "Double Espresso",
+                                            "desc":  "Two shots of intense espresso.",
+                                            "price":  249,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-8.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-9",
+                                            "name":  "Mocha",
+                                            "desc":  "Espresso with chocolate and milk.",
+                                            "price":  349,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-9.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-10",
+                                            "name":  "Cortado",
+                                            "desc":  "Balanced espresso with warm milk.",
+                                            "price":  269,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-10.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-11",
+                                            "name":  "Macchiato",
+                                            "desc":  "Espresso marked with a touch of foam.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-11.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-12",
+                                            "name":  "Vietnamese",
+                                            "desc":  "Classic Vietnamese coffee, sweet and bold.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-12.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-13",
+                                            "name":  "Espresso",
+                                            "desc":  "Pure espresso shot with rich crema.",
+                                            "price":  210,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-13.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-14",
+                                            "name":  "Latte",
+                                            "desc":  "Silky latte with steamed milk.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-14.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "juices-smoothies",
+                          "title":  "Juices & Smoothies",
+                          "items":  [
+                                        {
+                                            "id":  "js-1",
+                                            "name":  "Strawberry Smoothie",
+                                            "desc":  "Creamy strawberry smoothie, bright and fresh.",
+                                            "price":  380,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/juices-smoothies/js-1.jpg"
+                                        },
+                                        {
+                                            "id":  "js-2",
+                                            "name":  "ABC Juice",
+                                            "desc":  "Apple, beet, carrot juice with a clean finish.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/juices-smoothies/js-2.jpg"
+                                        },
+                                        {
+                                            "id":  "js-3",
+                                            "name":  "Orange Ginger Juice",
+                                            "desc":  "Citrus juice with a ginger spark.",
+                                            "price":  279,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/juices-smoothies/js-3.jpg"
+                                        },
+                                        {
+                                            "id":  "js-4",
+                                            "name":  "Watermelon Basil Juice",
+                                            "desc":  "Watermelon juice with basil aroma.",
+                                            "price":  279,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/juices-smoothies/js-4.jpg"
+                                        },
+                                        {
+                                            "id":  "js-5",
+                                            "name":  "Blueberry Beetroot Smoothie",
+                                            "desc":  "Blueberry beet smoothie, earthy and rich.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/juices-smoothies/js-5.jpg"
+                                        },
+                                        {
+                                            "id":  "js-6",
+                                            "name":  "Blueberry Smoothie",
+                                            "desc":  "Blueberry smoothie with a creamy finish.",
+                                            "price":  380,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/juices-smoothies/js-6.jpg"
+                                        },
+                                        {
+                                            "id":  "js-7",
+                                            "name":  "Pineapple Cucumber Juice",
+                                            "desc":  "Pineapple cucumber juice, light and crisp.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/juices-smoothies/js-7.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "pet-menu",
+                          "title":  "Pet Menu",
+                          "items":  [
+                                        {
+                                            "id":  "pet-1",
+                                            "name":  "Chicken Soup For Pets",
+                                            "desc":  "Warm chicken broth with gentle herbs.",
+                                            "price":  290,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-1.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-2",
+                                            "name":  "Chicken 200gm Pets",
+                                            "desc":  "Simple grilled chicken portion, 200gm.",
+                                            "price":  280,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-2.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-3",
+                                            "name":  "Chicken Rice For Pets",
+                                            "desc":  "Chicken rice bowl, mild and nourishing.",
+                                            "price":  329,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-3.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-4",
+                                            "name":  "Egg and Chicken Soup For Pets",
+                                            "desc":  "Egg and chicken broth, gentle and warm.",
+                                            "price":  300,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-4.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-5",
+                                            "name":  "Scrambled Egg For Pet",
+                                            "desc":  "Soft scrambled eggs, lightly cooked.",
+                                            "price":  240,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-5.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-6",
+                                            "name":  "Vanilla Ice Cream",
+                                            "desc":  "Gentle vanilla ice cream treat.",
+                                            "price":  159,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-6.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-7",
+                                            "name":  "Veg Soup For Pets",
+                                            "desc":  "Light vegetable soup, easy on tummies.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-7.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-8",
+                                            "name":  "Watermelon Slushee For Pets",
+                                            "desc":  "Watermelon slushee, cool and hydrating.",
+                                            "price":  209,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-8.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-9",
+                                            "name":  "Mango Pupsicle",
+                                            "desc":  "Frozen mango pupsicle, fruity and fun.",
+                                            "price":  180,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-9.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-10",
+                                            "name":  "Egg Rice For Pets",
+                                            "desc":  "Egg rice bowl, soft and hearty.",
+                                            "price":  250,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-10.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-11",
+                                            "name":  "Veg Rice For Pets",
+                                            "desc":  "Vegetable rice bowl, mild and filling.",
+                                            "price":  280,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-11.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-12",
+                                            "name":  "Egg Soup For Pets",
+                                            "desc":  "Light egg soup, warm and comforting.",
+                                            "price":  229,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-12.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-13",
+                                            "name":  "Fruit For Pets",
+                                            "desc":  "Fresh fruit bowl, naturally sweet.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-13.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-14",
+                                            "name":  "Watermelon Pupsicle",
+                                            "desc":  "Frozen watermelon pupsicle, hydrating.",
+                                            "price":  149,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-14.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "gregs-shop",
+                          "title":  "Greg's Shop",
+                          "items":  [
+                                        {
+                                            "id":  "shop-1",
+                                            "name":  "Chicken Bone Powder",
+                                            "desc":  "Nutrient-rich bone powder for pets.",
+                                            "price":  479,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/gregs-shop/shop-1.jpg"
+                                        },
+                                        {
+                                            "id":  "shop-2",
+                                            "name":  "Rabbit Skin Twist",
+                                            "desc":  "Chewy rabbit skin twist treat.",
+                                            "price":  529,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/gregs-shop/shop-2.jpg"
+                                        }
+                                    ]
+                      }
+
+
+                   ]
+}
+
+
+
+
+

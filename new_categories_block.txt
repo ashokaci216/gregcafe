@@ -1,0 +1,1115 @@
+
+,
+                      {
+                          "id":  "desserts",
+                          "title":  "Desserts",
+                          "items":  [
+                                        {
+                                            "id":  "ds-1",
+                                            "name":  "Baked Cheese Cake",
+                                            "desc":  "Silky baked cheesecake with a buttery crust.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/desserts/ds-1.jpg"
+                                        },
+                                        {
+                                            "id":  "ds-2",
+                                            "name":  "Chocolate Lava",
+                                            "desc":  "Warm molten chocolate with a rich center.",
+                                            "price":  279,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/desserts/ds-2.jpg"
+                                        },
+                                        {
+                                            "id":  "ds-3",
+                                            "name":  "Chocolate Brownie",
+                                            "desc":  "Dense cocoa brownie with a glossy finish.",
+                                            "price":  259,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/desserts/ds-3.jpg"
+                                        },
+                                        {
+                                            "id":  "ds-4",
+                                            "name":  "Slice Of The Day",
+                                            "desc":  "Freshly baked seasonal slice, chef selected.",
+                                            "price":  434,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/desserts/ds-4.jpg"
+                                        },
+                                        {
+                                            "id":  "ds-5",
+                                            "name":  "Manu's Chocolate Bar",
+                                            "desc":  "Signature chocolate bar with layered crunch.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/desserts/ds-5.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "iced-coffee",
+                          "title":  "Iced Coffee",
+                          "items":  [
+                                        {
+                                            "id":  "ic-1",
+                                            "name":  "Classic Cold Coffee",
+                                            "desc":  "Smooth chilled coffee with a creamy finish.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-1.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-2",
+                                            "name":  "Hazelnut Frappuccino",
+                                            "desc":  "Nutty frappuccino with a velvet chill.",
+                                            "price":  359,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-2.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-3",
+                                            "name":  "Iced Mocha",
+                                            "desc":  "Espresso, cocoa, and milk over ice.",
+                                            "price":  353,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-3.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-4",
+                                            "name":  "Iced Maple Cinnamon Latte",
+                                            "desc":  "Maple sweetness with cinnamon spice.",
+                                            "price":  340,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-4.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-5",
+                                            "name":  "Salted Caramel Frappuccino",
+                                            "desc":  "Caramel richness with a salted finish.",
+                                            "price":  359,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-5.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-6",
+                                            "name":  "Citrus Cold Brew",
+                                            "desc":  "Cold brew brightened with citrus notes.",
+                                            "price":  279,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-6.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-7",
+                                            "name":  "Vegan Cold Coffee",
+                                            "desc":  "Plant-based chilled coffee, smooth and clean.",
+                                            "price":  399,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-7.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-8",
+                                            "name":  "Iced Vietnamese (cold brew)",
+                                            "desc":  "Cold brew with sweet condensed milk.",
+                                            "price":  333,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-8.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-9",
+                                            "name":  "Iced Cappuccino",
+                                            "desc":  "Chilled espresso with frothy milk.",
+                                            "price":  259,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-9.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-10",
+                                            "name":  "Iced Vietnamese (espresso)",
+                                            "desc":  "Espresso pour with sweet milk on ice.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-10.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-11",
+                                            "name":  "Iced Irish Coffee",
+                                            "desc":  "Iced coffee with Irish cream notes.",
+                                            "price":  339,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-11.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-12",
+                                            "name":  "Iced Sea Salt Americano",
+                                            "desc":  "Americano with a subtle sea salt lift.",
+                                            "price":  353,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-12.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-13",
+                                            "name":  "Toffee Cold Coffee",
+                                            "desc":  "Toffee sweetness in a creamy chill.",
+                                            "price":  359,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-13.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-14",
+                                            "name":  "Espresso Ale",
+                                            "desc":  "Sparkling espresso with crisp finish.",
+                                            "price":  302,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-14.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-15",
+                                            "name":  "Creme Cold Brew",
+                                            "desc":  "Cold brew crowned with soft cream.",
+                                            "price":  302,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-15.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-16",
+                                            "name":  "Classic Cold Brew",
+                                            "desc":  "Slow steeped cold brew, clean and bold.",
+                                            "price":  279,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-16.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-17",
+                                            "name":  "Affogato",
+                                            "desc":  "Espresso poured over artisan ice cream.",
+                                            "price":  299,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-17.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-18",
+                                            "name":  "Cranberry Cold Brew",
+                                            "desc":  "Tart cranberry layered with cold brew.",
+                                            "price":  302,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-18.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-19",
+                                            "name":  "Espresso Tonic",
+                                            "desc":  "Bright tonic topped with espresso.",
+                                            "price":  302,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-19.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-20",
+                                            "name":  "Butterscotch Affogato",
+                                            "desc":  "Butterscotch gelato with espresso pour.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-20.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-21",
+                                            "name":  "Chocolate Frappuccino",
+                                            "desc":  "Cocoa-rich frappe blended to a chill.",
+                                            "price":  359,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-21.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-22",
+                                            "name":  "Iced Americano",
+                                            "desc":  "Crisp iced espresso with pure finish.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-22.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-23",
+                                            "name":  "Iced Strawberry Mocha",
+                                            "desc":  "Strawberry and mocha in a creamy chill.",
+                                            "price":  333,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-23.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-24",
+                                            "name":  "Nutella Affogato",
+                                            "desc":  "Nutella gelato kissed with espresso.",
+                                            "price":  339,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-24.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-25",
+                                            "name":  "Oj Espresso",
+                                            "desc":  "Orange juice with espresso lift.",
+                                            "price":  262,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-25.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-26",
+                                            "name":  "Vanilla Frappuccino",
+                                            "desc":  "Vanilla cream frappe with a soft finish.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-26.jpg"
+                                        },
+                                        {
+                                            "id":  "ic-27",
+                                            "name":  "Watermelon Cold Brew",
+                                            "desc":  "Juicy watermelon brightened cold brew.",
+                                            "price":  282,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/iced-coffee/ic-27.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "hot-chocolate",
+                          "title":  "Hot Chocolate",
+                          "items":  [
+                                        {
+                                            "id":  "hotch-1",
+                                            "name":  "Matcha White Chocolate",
+                                            "desc":  "White chocolate with a matcha swirl.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-chocolate/hotch-1.jpg"
+                                        },
+                                        {
+                                            "id":  "hotch-2",
+                                            "name":  "Mexican Hot Chocolate",
+                                            "desc":  "Cocoa with warm spice and cinnamon.",
+                                            "price":  349,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-chocolate/hotch-2.jpg"
+                                        },
+                                        {
+                                            "id":  "hotch-3",
+                                            "name":  "Classic Hot Chocolate",
+                                            "desc":  "Classic cocoa with a velvety finish.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-chocolate/hotch-3.jpg"
+                                        },
+                                        {
+                                            "id":  "hotch-4",
+                                            "name":  "Vegan Hot Chocolate",
+                                            "desc":  "Plant-based cocoa, rich and creamy.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-chocolate/hotch-4.jpg"
+                                        },
+                                        {
+                                            "id":  "hotch-5",
+                                            "name":  "Strawberry White Chocolate",
+                                            "desc":  "Strawberry notes in white chocolate.",
+                                            "price":  379,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-chocolate/hotch-5.jpg"
+                                        },
+                                        {
+                                            "id":  "hotch-6",
+                                            "name":  "Nutella Hot Chocolate",
+                                            "desc":  "Nutella cocoa with a silky finish.",
+                                            "price":  359,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-chocolate/hotch-6.jpg"
+                                        },
+                                        {
+                                            "id":  "hotch-7",
+                                            "name":  "Oreo Hot Chocolate",
+                                            "desc":  "Cocoa with crushed Oreo swirls.",
+                                            "price":  359,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-chocolate/hotch-7.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "tea-matcha",
+                          "title":  "Tea & Matcha",
+                          "items":  [
+                                        {
+                                            "id":  "tm-1",
+                                            "name":  "Strawberry Matcha",
+                                            "desc":  "Matcha latte with strawberry sweetness.",
+                                            "price":  419,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-1.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-2",
+                                            "name":  "Matcha Vanilla Affogato",
+                                            "desc":  "Vanilla gelato with matcha pour.",
+                                            "price":  409,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-2.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-3",
+                                            "name":  "Matcha Latte",
+                                            "desc":  "Ceremonial matcha with steamed milk.",
+                                            "price":  399,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-3.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-4",
+                                            "name":  "Iced Cranberry Matcha",
+                                            "desc":  "Cranberry brightness with chilled matcha.",
+                                            "price":  409,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-4.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-5",
+                                            "name":  "Vegan Matcha Latte",
+                                            "desc":  "Plant-based matcha, smooth and clean.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-5.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-6",
+                                            "name":  "Iced Blueberry Matcha",
+                                            "desc":  "Blueberry accents with iced matcha.",
+                                            "price":  419,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-6.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-7",
+                                            "name":  "Alpine Wildberry",
+                                            "desc":  "Fragrant berry tea with floral lift.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-7.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-8",
+                                            "name":  "Earl Grey",
+                                            "desc":  "Classic bergamot black tea.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-8.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-9",
+                                            "name":  "Minty Hibiscus",
+                                            "desc":  "Hibiscus tea with mint freshness.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-9.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-10",
+                                            "name":  "Tulsi Green Tea",
+                                            "desc":  "Tulsi and green tea, soothing and clean.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-10.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-11",
+                                            "name":  "Greg's Blend",
+                                            "desc":  "House tea blend with gentle spice.",
+                                            "price":  379,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-11.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-12",
+                                            "name":  "Iced Watermelon Matcha",
+                                            "desc":  "Watermelon notes with chilled matcha.",
+                                            "price":  419,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-12.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-13",
+                                            "name":  "Masala Chai",
+                                            "desc":  "Classic chai with warm spices.",
+                                            "price":  259,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-13.jpg"
+                                        },
+                                        {
+                                            "id":  "tm-14",
+                                            "name":  "Vanilla, Rose & Ginger",
+                                            "desc":  "Aromatic tea with floral spice notes.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/tea-matcha/tm-14.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "cold-beverages",
+                          "title":  "Cold Beverages",
+                          "items":  [
+                                        {
+                                            "id":  "cb-1",
+                                            "name":  "Peach Iced Tea",
+                                            "desc":  "Peach tea with a mellow finish.",
+                                            "price":  299,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-1.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-2",
+                                            "name":  "Blueberry Iced Tea",
+                                            "desc":  "Blueberry tea with a bright lift.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-2.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-3",
+                                            "name":  "Elderflower Iced Tea",
+                                            "desc":  "Floral elderflower tea, lightly chilled.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-3.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-4",
+                                            "name":  "Strawberry Iced Tea",
+                                            "desc":  "Strawberry tea with a soft sweetness.",
+                                            "price":  299,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-4.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-5",
+                                            "name":  "Pineapple Mojito",
+                                            "desc":  "Pineapple mint mojito, crisp and bright.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-5.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-6",
+                                            "name":  "Watermelon Mojito",
+                                            "desc":  "Watermelon mint mojito, light and cool.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-6.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-7",
+                                            "name":  "Orange Slushee",
+                                            "desc":  "Citrus slushee with sunny zest.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-7.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-8",
+                                            "name":  "Lemon Iced Tea",
+                                            "desc":  "Classic lemon tea, crisp and clean.",
+                                            "price":  299,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-8.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-9",
+                                            "name":  "Classic Mojito",
+                                            "desc":  "Mint-lime mojito with sparkling lift.",
+                                            "price":  279,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-9.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-10",
+                                            "name":  "Kiwi Slushee",
+                                            "desc":  "Kiwi slushee with tangy chill.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-10.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-11",
+                                            "name":  "Mango Slushee",
+                                            "desc":  "Mango slushee, tropical and smooth.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-11.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-12",
+                                            "name":  "Strawberry Slushee",
+                                            "desc":  "Strawberry slushee with juicy sweetness.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-12.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-13",
+                                            "name":  "Ginger Ale",
+                                            "desc":  "Lightly spiced ginger sparkle.",
+                                            "price":  201,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-13.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-14",
+                                            "name":  "Fresh Lime",
+                                            "desc":  "Fresh lime soda with crisp finish.",
+                                            "price":  199,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-14.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-15",
+                                            "name":  "Kiwi Cooler",
+                                            "desc":  "Chilled kiwi cooler with a zing.",
+                                            "price":  299,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-15.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-16",
+                                            "name":  "Minty Hibiscus Iced Tea",
+                                            "desc":  "Hibiscus iced tea with mint lift.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-16.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-17",
+                                            "name":  "Rose Vanilla Sparkling Iced Tea",
+                                            "desc":  "Sparkling tea with rose and vanilla.",
+                                            "price":  201,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-17.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-18",
+                                            "name":  "Strawberry Lemonade Sparkling Iced Tea",
+                                            "desc":  "Strawberry lemonade with sparkling tea.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-18.jpg"
+                                        },
+                                        {
+                                            "id":  "cb-19",
+                                            "name":  "Watermelon Iced Tea",
+                                            "desc":  "Watermelon tea with a refreshing chill.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/cold-beverages/cb-19.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "milkshakes",
+                          "title":  "Milkshakes",
+                          "items":  [
+                                        {
+                                            "id":  "ms-1",
+                                            "name":  "Belgium Chocolate Milkshake",
+                                            "desc":  "Belgian chocolate shake, luxuriously thick.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-1.jpg"
+                                        },
+                                        {
+                                            "id":  "ms-2",
+                                            "name":  "Nutella Brownie Milkshake",
+                                            "desc":  "Nutella and brownie blended smooth.",
+                                            "price":  499,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-2.jpg"
+                                        },
+                                        {
+                                            "id":  "ms-3",
+                                            "name":  "Brownie Milkshake",
+                                            "desc":  "Chocolate brownie shake with rich depth.",
+                                            "price":  499,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-3.jpg"
+                                        },
+                                        {
+                                            "id":  "ms-4",
+                                            "name":  "Nutella Milkshake",
+                                            "desc":  "Creamy Nutella shake with cocoa warmth.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-4.jpg"
+                                        },
+                                        {
+                                            "id":  "ms-5",
+                                            "name":  "Oreo Milkshake",
+                                            "desc":  "Crushed Oreo shake with creamy finish.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-5.jpg"
+                                        },
+                                        {
+                                            "id":  "ms-6",
+                                            "name":  "Strawberry Milkshake",
+                                            "desc":  "Strawberry shake, light and silky.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-6.jpg"
+                                        },
+                                        {
+                                            "id":  "ms-7",
+                                            "name":  "Blueberry/Strawberry Cheesecake Milkshake",
+                                            "desc":  "Cheesecake shake with berry swirl.",
+                                            "price":  449,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-7.jpg"
+                                        },
+                                        {
+                                            "id":  "ms-8",
+                                            "name":  "Oreo Nutella Milkshake",
+                                            "desc":  "Oreo and Nutella, decadently blended.",
+                                            "price":  449,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/milkshakes/ms-8.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "hot-coffee",
+                          "title":  "Hot Coffee",
+                          "items":  [
+                                        {
+                                            "id":  "hco-1",
+                                            "name":  "Spanish Latte",
+                                            "desc":  "Rich latte with sweetened milk.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-1.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-2",
+                                            "name":  "Irish Coffee",
+                                            "desc":  "Coffee with Irish cream warmth.",
+                                            "price":  339,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-2.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-3",
+                                            "name":  "Maple Cinnamon Latte",
+                                            "desc":  "Latte sweetened with maple spice.",
+                                            "price":  349,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-3.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-4",
+                                            "name":  "Americano",
+                                            "desc":  "Classic espresso with hot water.",
+                                            "price":  269,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-4.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-5",
+                                            "name":  "French Press",
+                                            "desc":  "Full-bodied brew, slow pressed.",
+                                            "price":  270,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-5.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-6",
+                                            "name":  "Cappuccino",
+                                            "desc":  "Foamy cappuccino with rich crema.",
+                                            "price":  280,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-6.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-7",
+                                            "name":  "Filter Coffee",
+                                            "desc":  "Traditional filter brew, smooth and bold.",
+                                            "price":  242,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-7.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-8",
+                                            "name":  "Double Espresso",
+                                            "desc":  "Two shots of intense espresso.",
+                                            "price":  249,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-8.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-9",
+                                            "name":  "Mocha",
+                                            "desc":  "Espresso with chocolate and milk.",
+                                            "price":  349,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-9.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-10",
+                                            "name":  "Cortado",
+                                            "desc":  "Balanced espresso with warm milk.",
+                                            "price":  269,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-10.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-11",
+                                            "name":  "Macchiato",
+                                            "desc":  "Espresso marked with a touch of foam.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-11.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-12",
+                                            "name":  "Vietnamese",
+                                            "desc":  "Classic Vietnamese coffee, sweet and bold.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-12.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-13",
+                                            "name":  "Espresso",
+                                            "desc":  "Pure espresso shot with rich crema.",
+                                            "price":  210,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-13.jpg"
+                                        },
+                                        {
+                                            "id":  "hco-14",
+                                            "name":  "Latte",
+                                            "desc":  "Silky latte with steamed milk.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/hot-coffee/hco-14.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "juices-smoothies",
+                          "title":  "Juices & Smoothies",
+                          "items":  [
+                                        {
+                                            "id":  "js-1",
+                                            "name":  "Strawberry Smoothie",
+                                            "desc":  "Creamy strawberry smoothie, bright and fresh.",
+                                            "price":  380,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/juices-smoothies/js-1.jpg"
+                                        },
+                                        {
+                                            "id":  "js-2",
+                                            "name":  "ABC Juice",
+                                            "desc":  "Apple, beet, carrot juice with a clean finish.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/juices-smoothies/js-2.jpg"
+                                        },
+                                        {
+                                            "id":  "js-3",
+                                            "name":  "Orange Ginger Juice",
+                                            "desc":  "Citrus juice with a ginger spark.",
+                                            "price":  279,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/juices-smoothies/js-3.jpg"
+                                        },
+                                        {
+                                            "id":  "js-4",
+                                            "name":  "Watermelon Basil Juice",
+                                            "desc":  "Watermelon juice with basil aroma.",
+                                            "price":  279,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/juices-smoothies/js-4.jpg"
+                                        },
+                                        {
+                                            "id":  "js-5",
+                                            "name":  "Blueberry Beetroot Smoothie",
+                                            "desc":  "Blueberry beet smoothie, earthy and rich.",
+                                            "price":  429,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/juices-smoothies/js-5.jpg"
+                                        },
+                                        {
+                                            "id":  "js-6",
+                                            "name":  "Blueberry Smoothie",
+                                            "desc":  "Blueberry smoothie with a creamy finish.",
+                                            "price":  380,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/juices-smoothies/js-6.jpg"
+                                        },
+                                        {
+                                            "id":  "js-7",
+                                            "name":  "Pineapple Cucumber Juice",
+                                            "desc":  "Pineapple cucumber juice, light and crisp.",
+                                            "price":  329,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/juices-smoothies/js-7.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "pet-menu",
+                          "title":  "Pet Menu",
+                          "items":  [
+                                        {
+                                            "id":  "pet-1",
+                                            "name":  "Chicken Soup For Pets",
+                                            "desc":  "Warm chicken broth with gentle herbs.",
+                                            "price":  290,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-1.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-2",
+                                            "name":  "Chicken 200gm Pets",
+                                            "desc":  "Simple grilled chicken portion, 200gm.",
+                                            "price":  280,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-2.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-3",
+                                            "name":  "Chicken Rice For Pets",
+                                            "desc":  "Chicken rice bowl, mild and nourishing.",
+                                            "price":  329,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-3.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-4",
+                                            "name":  "Egg and Chicken Soup For Pets",
+                                            "desc":  "Egg and chicken broth, gentle and warm.",
+                                            "price":  300,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-4.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-5",
+                                            "name":  "Scrambled Egg For Pet",
+                                            "desc":  "Soft scrambled eggs, lightly cooked.",
+                                            "price":  240,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-5.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-6",
+                                            "name":  "Vanilla Ice Cream",
+                                            "desc":  "Gentle vanilla ice cream treat.",
+                                            "price":  159,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-6.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-7",
+                                            "name":  "Veg Soup For Pets",
+                                            "desc":  "Light vegetable soup, easy on tummies.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-7.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-8",
+                                            "name":  "Watermelon Slushee For Pets",
+                                            "desc":  "Watermelon slushee, cool and hydrating.",
+                                            "price":  209,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-8.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-9",
+                                            "name":  "Mango Pupsicle",
+                                            "desc":  "Frozen mango pupsicle, fruity and fun.",
+                                            "price":  180,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-9.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-10",
+                                            "name":  "Egg Rice For Pets",
+                                            "desc":  "Egg rice bowl, soft and hearty.",
+                                            "price":  250,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-10.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-11",
+                                            "name":  "Veg Rice For Pets",
+                                            "desc":  "Vegetable rice bowl, mild and filling.",
+                                            "price":  280,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-11.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-12",
+                                            "name":  "Egg Soup For Pets",
+                                            "desc":  "Light egg soup, warm and comforting.",
+                                            "price":  229,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-12.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-13",
+                                            "name":  "Fruit For Pets",
+                                            "desc":  "Fresh fruit bowl, naturally sweet.",
+                                            "price":  229,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-13.jpg"
+                                        },
+                                        {
+                                            "id":  "pet-14",
+                                            "name":  "Watermelon Pupsicle",
+                                            "desc":  "Frozen watermelon pupsicle, hydrating.",
+                                            "price":  149,
+                                            "veg":  true,
+                                            "available":  true,
+                                            "image":  "images/menu/pet-menu/pet-14.jpg"
+                                        }
+                                    ]
+                      },
+                      {
+                          "id":  "gregs-shop",
+                          "title":  "Greg's Shop",
+                          "items":  [
+                                        {
+                                            "id":  "shop-1",
+                                            "name":  "Chicken Bone Powder",
+                                            "desc":  "Nutrient-rich bone powder for pets.",
+                                            "price":  479,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/gregs-shop/shop-1.jpg"
+                                        },
+                                        {
+                                            "id":  "shop-2",
+                                            "name":  "Rabbit Skin Twist",
+                                            "desc":  "Chewy rabbit skin twist treat.",
+                                            "price":  529,
+                                            "veg":  false,
+                                            "available":  true,
+                                            "image":  "images/menu/gregs-shop/shop-2.jpg"
+                                        }
+                                    ]
+                      }

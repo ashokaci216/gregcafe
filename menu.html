@@ -1,0 +1,223 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu | Greg's Cafe - Chembur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo.png" alt="Greg's Cafe logo" />
+        <span>Greg's Cafe</span>
+      </a>
+      <nav class="nav" id="siteNav">
+        <!-- // Header nav updates -->
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <!-- // Order button link update -->
+        <a class="btn btn-primary nav-order" href="#menuSection">Order</a>
+      </nav>
+      <button class="hamburger" id="navToggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <button class="cart-button" id="cartToggle" aria-label="Open cart">
+        <span>Cart</span>
+        <span class="cart-badge" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Menu</h1>
+        <p>Premium comfort plates, café classics, and signature mains in Chembur.</p>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="menuSection">
+      <div class="container">
+        <div class="section-title">
+          <h2>Today's Offer</h2>
+          <p>Limited specials available once per order.</p>
+        </div>
+        <div class="offer-grid" id="todayOfferGrid"></div>
+        <p class="offer-note" id="offerUnlockNote">Add one regular menu item to unlock Today’s Offer.</p>
+        <div class="menu-grid" id="menuGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-head">
+      <h3>Your Cart</h3>
+      <button class="icon-btn" id="cartClose" aria-label="Close cart">×</button>
+    </div>
+    <div class="cart-body">
+      <div class="cart-items" id="cartItems"></div>
+      <div class="cart-summary">
+        <h4>Order Summary</h4>
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <strong id="summarySubtotal">₹ 0</strong>
+        </div>
+        <div class="summary-row">
+          <span>Discount</span>
+          <strong id="summaryDiscount">₹ 0</strong>
+        </div>
+        <div class="summary-row">
+          <span>GST (5%)</span>
+          <strong id="summaryGst">₹ 0</strong>
+        </div>
+        <div class="summary-row">
+          <span>Delivery Fee</span>
+          <strong id="summaryDelivery">₹ 0</strong>
+        </div>
+        <div class="summary-row total">
+          <span>Total Payable Amount</span>
+          <strong id="summaryTotal">₹ 0</strong>
+        </div>
+        <div class="cart-message" id="discountMessage"></div>
+        <div class="cart-message" id="deliveryMessage"></div>
+      </div>
+      <div class="cart-form">
+        <label>
+          Full Name
+          <input type="text" id="customerName" placeholder="Full name" />
+        </label>
+        <label>
+          Phone Number
+          <input type="tel" id="customerPhone" placeholder="+91" />
+        </label>
+        <label>
+          Delivery Address
+          <input type="text" id="customerAddress" placeholder="Full delivery address" />
+        </label>
+        <label>
+          Notes (optional)
+          <textarea id="customerNotes" placeholder="Any special request..."></textarea>
+        </label>
+        <div class="cart-payment">
+          <span>Payment Method</span>
+          <label>
+            <input type="radio" name="paymentMethod" value="Cash" checked />
+            Cash
+          </label>
+          <label>
+            <input type="radio" name="paymentMethod" value="UPI" />
+            UPI
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="cart-foot">
+      <div class="cart-subtotal">
+        <span>Total Payable</span>
+        <strong id="cartTotal">₹ 0</strong>
+      </div>
+      <button class="btn btn-primary" id="waOrderBtn">Send Order on WhatsApp</button>
+      <button class="btn btn-outline" id="clearCartBtn">Clear Cart</button>
+    </div>
+  </aside>
+
+  <div class="cart-bar" id="cartBar">
+    <span class="cart-bar-items" id="cartBarItems">
+      <svg class="cart-bar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M3 4h2l2.2 10.5a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.5L21 7H7.2"></path>
+        <circle cx="10" cy="19" r="1.6"></circle>
+        <circle cx="17" cy="19" r="1.6"></circle>
+      </svg>
+      <span id="cartBarCount">0 items</span>
+    </span>
+    <strong id="cartBarTotal">₹ 0</strong>
+    <button class="btn btn-primary" id="cartBarOpen">View Cart</button>
+  </div>
+
+  <div class="modal-backdrop" id="imageModal" hidden>
+    <div class="modal-card">
+      <button class="icon-btn modal-close" id="imageModalClose" aria-label="Close preview">×</button>
+      <img id="imageModalImg" alt="Menu preview" />
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="addonModal" hidden>
+    <div class="modal-card modal-card--wide">
+      <div class="modal-head">
+        <h3 id="addonModalTitle">Customize</h3>
+        <button class="icon-btn modal-close" id="addonModalClose" aria-label="Close customizations">×</button>
+      </div>
+      <div class="modal-body" id="addonModalContent"></div>
+      <p class="modal-error" id="addonModalError"></p>
+      <div class="modal-actions">
+        <button class="btn btn-primary" id="addonModalConfirm">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <button id="menuNavigatorBtn" class="floating-menu-btn" type="button">
+    ☰ Menu
+  </button>
+  <div id="categoryNavigator" class="category-navigator" hidden>
+    <button type="button" data-target="menuSection">All</button>
+    <button type="button" data-target="pasta-risotto">Pasta & Risotto</button>
+    <button type="button" data-target="pizza">Pizza</button>
+    <button type="button" data-target="non-veg-starters">Non Veg Starters</button>
+    <button type="button" data-target="veg-starters">Veg Starters</button>
+    <button type="button" data-target="main-course">Main Course & Meals</button>
+    <button type="button" data-target="all-day-breakfast">All Day Breakfast</button>
+    <button type="button" data-target="rice-noodles">Rice & Noodles</button>
+    <button type="button" data-target="salad">Salad</button>
+    <button type="button" data-target="sides">Sides</button>
+    <button type="button" data-target="soups">Soups</button>
+    <button type="button" data-target="burgers">Burgers</button>
+    <button type="button" data-target="sandwiches">Sandwiches</button>
+    <button type="button" data-target="desserts">Desserts</button>
+    <button type="button" data-target="iced-coffee">Iced Coffee</button>
+    <button type="button" data-target="hot-chocolate">Hot Chocolate</button>
+    <button type="button" data-target="tea-matcha">Tea & Matcha</button>
+    <button type="button" data-target="cold-beverages">Cold Beverages</button>
+    <button type="button" data-target="milkshakes">Milkshakes</button>
+    <button type="button" data-target="hot-coffee">Hot Coffee</button>
+    <button type="button" data-target="juices-smoothies">Juices & Smoothies</button>
+    <button type="button" data-target="pet-menu">Pet Menu</button>
+    <button type="button" data-target="gregs-shop">Greg's Shop</button>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Greg's Cafe, Chembur</h3>
+        <p>Shop 102, 1st Floor, Yash Signature, Opposite Telecom Factory Road, Chembur, Mumbai</p>
+        <p>Open daily: 10:00 AM - 11:30 PM</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Phone: +91 9867378209</p>
+        <p>Email: hello@gregscafe.in</p>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <div class="social">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">TikTok</a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Greg's Cafe. Demo website.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
+
