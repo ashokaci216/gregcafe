@@ -339,6 +339,25 @@ a {
   color: var(--muted);
 }
 
+@media (max-width: 768px) {
+
+  .hero-content {
+    padding: 64px 0 48px;
+  }
+
+  .hero .lead {
+    margin-bottom: 16px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .hero-bg {
+    object-position: center 35%;
+  }
+}
+
+
 /* FEATURED PICKS POLISH */
 .menu-card {
   display: grid;
