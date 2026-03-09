@@ -339,6 +339,24 @@ a {
   color: var(--muted);
 }
 
+.story-image {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.story-image img {
+  width: 100%;
+  max-width: 360px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: block;
+}
+
+.brand-story-row {
+  gap: 24px;
+}
+
 @media (max-width: 768px) {
 
   .hero-content {
