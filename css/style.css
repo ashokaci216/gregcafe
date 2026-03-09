@@ -1275,15 +1275,16 @@ body.cart-open #cartBar {
 
 @media (max-width: 700px) {
   .hero {
-    min-height: 80vh;
+    height: 74vh;
+    min-height: 0;
   }
 
   .hero-bg {
-    object-position: center 40%;
+    object-position: center 35%;
   }
 
   .hero-content {
-    padding: clamp(72px, 14vw, 110px) 0 clamp(56px, 12vw, 90px);
+    padding: clamp(56px, 12vw, 88px) 0 clamp(40px, 10vw, 68px);
   }
 
   .hero h1 {
