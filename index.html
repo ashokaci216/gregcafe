@@ -238,30 +238,39 @@
 
     <section class="section alt">
       <div class="container split">
-        <div class="map-embed">
-          <iframe
-            title="Greg's Cafe location"
-            src="https://maps.google.com/maps?q=Shop%20102%2C%201st%20Floor%2C%20Yash%20Signature%2C%20Opposite%20Telecom%20Factory%20Road%2C%20Chembur%2C%20Mumbai&t=&z=15&ie=UTF8&iwloc=&output=embed"
-            loading="lazy"
-          ></iframe>
+        <div class="card website-offer-card">
+          <h2>Exclusive Website Offers</h2>
+          <div class="offer-group">
+            <h3>Today’s Offer</h3>
+            <p>• 30% to 40% Off on Today’s Offer</p>
+          </div>
+          <div class="offer-group">
+            <h3>Website Ordering</h3>
+            <p>• 15% Flat Off on orders above ₹300</p>
+            <p>• 20% Flat Off on orders above ₹10,000</p>
+          </div>
+          <div class="offer-group">
+            <h3>Website Table Booking</h3>
+            <p>• 10% Flat Off on website table booking</p>
+          </div>
+          <p class="offer-note">Note: Offers are not combinable.<br>Valid only on website order and website table booking.</p>
         </div>
-        <form class="contact-form">
+        <form class="contact-form" id="generalEnquiryForm">
           <h2>General Enquiry</h2>
           <p class="form-note">For table bookings, please use the reservation form below.</p>
           <label>
             Name
-            <input type="text" placeholder="Your name" />
+            <input type="text" id="generalEnquiryName" placeholder="Your name" required />
           </label>
           <label>
             Email
-            <input type="email" placeholder="you@email.com" />
+            <input type="email" id="generalEnquiryEmail" placeholder="you@email.com" required />
           </label>
           <label>
             Message
-            <textarea placeholder="How can we help?"></textarea>
+            <textarea id="generalEnquiryMessage" placeholder="How can we help?" required></textarea>
           </label>
-          <button type="button" class="btn btn-primary" id="demoForm">Submit</button>
-          <p class="form-note" id="demoFormNote">This is a demo form.</p>
+          <button type="submit" class="btn btn-primary" id="demoForm">Submit</button>
           <a class="btn btn-outline" href="https://wa.me/919867378209" target="_blank" rel="noopener">WhatsApp Us</a>
         </form>
       </div>

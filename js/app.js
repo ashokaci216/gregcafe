@@ -1126,13 +1126,29 @@ function setupWhatsApp() {
 }
 
 function setupDemoForm() {
-  const demoButton = document.getElementById("demoForm");
-  const note = document.getElementById("demoFormNote");
-  if (demoButton && note) {
-    demoButton.addEventListener("click", () => {
-      note.textContent = "This is a demo form. No data is sent.";
-    });
-  }
+  const form = document.getElementById("generalEnquiryForm");
+  if (!form) return;
+
+  form.addEventListener("submit", (event) => {
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+    event.preventDefault();
+    const name = document.getElementById("generalEnquiryName")?.value || "";
+    const email = document.getElementById("generalEnquiryEmail")?.value || "";
+    const message = document.getElementById("generalEnquiryMessage")?.value || "";
+
+    const lines = [
+      "General Enquiry",
+      `Name: ${name}`,
+      `Email: ${email}`,
+      `Message: ${message}`
+    ];
+
+    const url = `https://wa.me/919867378209?text=${encodeURIComponent(lines.join("\n"))}`;
+    window.open(url, "_blank");
+  });
 }
 
 function setupReservationForm() {
