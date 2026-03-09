@@ -1268,6 +1268,18 @@ body.cart-open #cartBar {
   justify-self: start;
 }
 
+#reserve .section-title {
+  margin-bottom: 28px;
+}
+
+#reserve .reservation-form {
+  gap: 14px;
+}
+
+#reserve .reservation-form label {
+  gap: 4px;
+}
+
 .form-note {
   font-size: 13px;
   color: var(--muted);
