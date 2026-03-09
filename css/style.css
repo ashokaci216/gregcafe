@@ -1275,7 +1275,28 @@ body.cart-open #cartBar {
 
 @media (max-width: 700px) {
   .hero {
-    min-height: 70vh;
+    min-height: 80vh;
+  }
+
+  .hero-bg {
+    object-position: center 40%;
+  }
+
+  .hero-content {
+    padding: clamp(72px, 14vw, 110px) 0 clamp(56px, 12vw, 90px);
+  }
+
+  .hero h1 {
+    font-size: clamp(30px, 6vw, 44px);
+    margin-bottom: 12px;
+  }
+
+  .hero .lead {
+    margin-bottom: 18px;
+  }
+
+  .hero-actions {
+    gap: 12px;
   }
 
   .menu-card {
