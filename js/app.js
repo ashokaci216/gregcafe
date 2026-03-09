@@ -946,6 +946,24 @@ function setupNav() {
   }
 }
 
+function setupHeroSlider() {
+  const hero = document.querySelector(".hero");
+  if (!hero) return;
+  const slides = hero.querySelectorAll(".hero-bg");
+  if (slides.length <= 1) return;
+
+  let currentIndex = 0;
+  slides.forEach((slide, index) => {
+    slide.classList.toggle("active", index === 0);
+  });
+
+  window.setInterval(() => {
+    slides[currentIndex].classList.remove("active");
+    currentIndex = (currentIndex + 1) % slides.length;
+    slides[currentIndex].classList.add("active");
+  }, 4500);
+}
+
 function injectMobileViewCartBar() {
   if (!window.location.pathname.includes("menu.html")) return;
   if (document.getElementById("cartBar")) return;
@@ -1166,6 +1184,7 @@ setupDemoForm();
 setupReservationForm();
 setupImageModal();
 setupAddonModal();
+setupHeroSlider();
 window.addEventListener("pageshow", closeAddonModal);
 renderMenu();
 renderCart();
