@@ -496,7 +496,7 @@ a {
 }
 
 .featured-picks .menu-card {
-  padding: 16px;
+  padding: 18px;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
@@ -506,7 +506,7 @@ a {
 
 .featured-picks .menu-card img {
   width: 130px;
-  height: 94px;
+  height: 104px;
   object-fit: cover;
   border-radius: 16px;
   display: block;
@@ -523,6 +523,7 @@ a {
 
 .featured-picks .menu-card .price {
   margin-top: 4px;
+  font-weight: 700;
 }
 
 @media (hover: hover) {
